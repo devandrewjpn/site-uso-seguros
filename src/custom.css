@@ -1,0 +1,42 @@
+.hero__slider {
+  background-position: center!important;
+  background-size: cover!important;
+  background-repeat: no-repeat!important;
+  width: 100vw!important;
+  height: 90vh!important;
+  position: relative;
+  z-index: 0;
+}
+
+.hero__slider_ {
+  background-image: url(../public/assets/imgs/hero.jpg);
+}
+
+.hero__slider::after {
+  content: '';
+  position: absolute;
+  inset: 0 0 0 0;
+  background: black;
+  opacity: .7;
+  z-index: 1;
+}  
+
+.viagens__hero {
+  background-image: url(../public/assets/imgs/hero_viagens.jpg);
+}
+
+.justify__text {
+  text-align: justify!important;
+}
+
+.text-green {
+  color: var(--primary);
+}
+
+.fw__300 {
+  font-weight: 300!important;
+}
+
+.fw__600 {
+  font-weight: 600!important;
+}
