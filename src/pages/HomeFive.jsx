@@ -7,6 +7,7 @@ import NewsletterTwo from "../components/NewsletterTwo";
 import PricingOne from "../components/PricingOne";
 import TestimonialTwo from "../components/TestimonialTwo";
 import FooterThree from "../components/FooterThree";
+import ServiceThree from "../components/ServiceThree";
 
 const HomeFive = () => {
   return (
@@ -17,7 +18,8 @@ const HomeFive = () => {
           <HeroFive />
           <PricingOne />
           <HistoryOne />
-          <NewsletterTwo />
+          {/* <NewsletterTwo /> */}
+          <ServiceThree />
           <TestimonialTwo />
         </main>
         <FooterThree />

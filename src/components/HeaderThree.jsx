@@ -56,20 +56,28 @@ const HeaderThree = () => {
           <div className="header__menu-3">
             <nav className="main-menu">
               <ul>
-                <li>
-                  <Link to="/viagens">Seguro viagem</Link>
-                </li>
-                <li>
-                  <Link to="/">Assistência PET</Link>
-                </li>
-                <li>
-                  <Link to="/">Assistência Funerária</Link>
-                </li>
-                <li>
-                  <Link to="/">Saúde</Link>
+                <li className="has-dropdown">
+                  <Link to="#">Benefícios</Link>
+                  <ul className="main-dropdown">
+                    <li>
+                      <Link to="/viagens">Seguro Viagem</Link>
+                    </li>
+                    <li>
+                      <Link to="/">Assistência PET</Link>
+                    </li>
+                    <li>
+                      <Link to="/">Assistência Funeral</Link>
+                    </li>
+                    <li>
+                      <Link to="/">Seguro Saúde</Link>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <Link to="/">Ajuda</Link>
+                </li>
+                <li>
+                  <Link to="/">Meu perfil</Link>
                 </li>
               </ul>
             </nav>

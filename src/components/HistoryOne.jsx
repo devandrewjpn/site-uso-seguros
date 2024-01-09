@@ -4,8 +4,8 @@ const HistoryOne = () => {
   return (
     <>
       {/* history area start */}
-      <section className="history__area-5">
-        <div className="container">
+      <section className="history__area-5 pt-5" style={{ background: 'black' }}>
+        <div className="container pt-5">
           <div className="row">
             <div className="col-lg-6">
               <div
@@ -21,7 +21,38 @@ const HistoryOne = () => {
                 </h3>
               </div>
               <div className="history__content-5">
-                  <p className="text-white justify__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error deserunt magni id blanditiis eaque cumque dolore recusandae fugiat porro perspiciatis cupiditate, dolores non sunt nostrum delectus illum ipsa vero odit.</p>
+                <p className="text-white justify__text mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error deserunt magni id blanditiis eaque cumque dolore recusandae fugiat porro perspiciatis cupiditate, dolores non sunt nostrum delectus illum ipsa vero odit.</p>
+                <p className="text-white justify__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error deserunt magni id blanditiis eaque cumque dolore recusandae fugiat porro perspiciatis cupiditate, dolores non sunt nostrum delectus illum ipsa vero odit.</p>
+              </div>
+
+              <div className="d-flex flex-column align-items-start justify-content-start gap-5 py-5">
+                <div className="d-flex align-items-start gap-4">
+                  <div className="service__thumb-5">
+                    <img src="assets/imgs/home-5/s3.png" alt="service-icon" />
+                  </div>
+                  <div className="service__content-5">
+                    <h3 className="service__item-title">Completo</h3>
+                    <p>Com tudo que você precisa.</p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-start gap-4">
+                  <div className="service__thumb-5">
+                    <img src="assets/imgs/home-5/s3.png" alt="service-icon" />
+                  </div>
+                  <div className="service__content-5">
+                    <h3 className="service__item-title">Acessível</h3>
+                    <p>Compatível com todos os sistemas operacionais.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="newsletter__form-wrapper-5">
+                <a href="/">
+                  <img width={250} height={88} src="https://play.google.com/intl/pt-BR/badges/static/images/badges/pt-br_badge_web_generic.png" alt="" />
+                </a>
+                <a href="/">
+                  <img width={250} src="https://www.gov.br/pt-br/imagens-de-servicos/apple.png" alt="" />
+                </a>
               </div>
             </div>
             <div className="col-lg-6">
@@ -31,8 +62,8 @@ const HistoryOne = () => {
                 data-aos-delay={300}
               >
                 <img
-                  src="https://img.freepik.com/free-photo/woman-wearing-medical-mask-while-having-video-call-her-smartphone_23-2148770446.jpg?w=1480&t=st=1704481895~exp=1704482495~hmac=6a179a9a9c830f128eb7d77028deac2f0f1b0f88e59dc240371bc815e6cc379d"
-                  alt="history "
+                  src="assets/imgs/app_woman.jpg"
+                  alt=""
                   data-lag="0.3"
                 />
                 <div className="history__box-wrapper">

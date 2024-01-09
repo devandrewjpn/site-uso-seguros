@@ -25,13 +25,25 @@ const AboutFive = () => {
                 <h3 className="sec-title heading-animation text-white">
                   Problemas na Viagem?<br />Envie um WhatsApp e resolvemos na Hora!
                 </h3>
-                <ul>
-                  <li className="text-white d-flex align-items-center"><i class="fs-4 fa-brands fa-square-whatsapp me-3 text-green"></i>Brasil +55 (11) 32302118</li>
-                  <li className="text-white d-flex align-items-center"><i class="fs-4 fa-brands fa-square-whatsapp me-3 text-green my-2"></i>Europa +34 (91) 0606975</li>
-                  <li className="text-white d-flex align-items-center"><i class="fs-4 fa-brands fa-square-whatsapp me-3 text-green"></i>EUA +1 (786) 2091976</li>
+                <ul className="my-3">
+                  <li>
+                    <a href="https://api.whatsapp.com/send/?phone=551132302118" className="text__link text-white d-flex align-items-center" target="_blank" rel="noreferrer">
+                      <i class="fs-2 fa-brands fa-square-whatsapp me-3 text-green"></i>Brasil +55 (11) 32302118
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://api.whatsapp.com/send/?phone=34910606975" className="text__link text-white d-flex align-items-center" target="_blank" rel="noreferrer">
+                      <i class="fs-2 fa-brands fa-square-whatsapp me-3 text-green my-2"></i>Europa +34 (91) 0606975
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://api.whatsapp.com/send/?phone=17862091976" className="text__link text-white d-flex align-items-center" target="_blank" rel="noreferrer">
+                      <i class="fs-2 fa-brands fa-square-whatsapp me-3 text-green"></i>EUA +1 (786) 2091976
+                    </a>
+                  </li>
                 </ul>
                 <div className="p-animation">
-                  <p>Atendimento em Português, Todos os Dias do Ano!</p>
+                  <p className="h5">* Atendimento em Português, Todos os Dias do Ano!</p>
                 </div>
               </div>
             </div>

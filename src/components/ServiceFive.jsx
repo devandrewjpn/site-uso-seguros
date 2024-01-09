@@ -26,8 +26,8 @@ const ServiceFive = () => {
   return (
     <>
       {/* service area start */}
-      <section className="service__area-5">
-        <div className="container">
+      <section className="service__area-5 py-5 my-5" style={{background: '#404040'}}>
+        <div className="container my-5">
           <div className="service__items-5">
             {items.map(item => {
               return (

@@ -55,7 +55,7 @@
       position: absolute;
       width: 260px;
       top: 100px;
-      background: var(--blue);
+      background: var(--primary);
       padding: 20px 0;
       opacity: 0;
       visibility: hidden;
@@ -83,6 +83,9 @@
         a {
           padding: 10px 0;
           color: var(--white);
+          &:hover {
+            color: var(--secondary);
+          }
         }
       }
     }
