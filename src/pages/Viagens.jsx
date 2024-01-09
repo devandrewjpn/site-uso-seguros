@@ -8,6 +8,7 @@ import AboutTwo from "../components/AboutTwo";
 import ServiceFive from "../components/ServiceFive";
 import AboutFive from "../components/AboutFive";
 import Why from "../components/Why";
+import {TravelWhyQuestions} from "../data/travel_why_questions";
 
 const Viagens = () => {
   return (
@@ -20,7 +21,7 @@ const Viagens = () => {
           <AboutTwo />
           <ServiceFive />
           <AboutFive />
-          <Why />
+          <Why subtitle='Diferencial' title='eu sei por que uso' questions={TravelWhyQuestions} />
         </main>
         <FooterThree />
       </Suspense>

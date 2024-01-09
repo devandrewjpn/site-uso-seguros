@@ -63,7 +63,7 @@ const HeaderThree = () => {
                       <Link to="/viagens">Seguro Viagem</Link>
                     </li>
                     <li>
-                      <Link to="/">Assistência PET</Link>
+                      <Link to="/pet">Assistência PET</Link>
                     </li>
                     <li>
                       <Link to="/">Assistência Funeral</Link>

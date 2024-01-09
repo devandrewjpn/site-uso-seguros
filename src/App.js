@@ -16,6 +16,7 @@ import BlogPage from "./pages/BlogPage";
 import BlogDetailsPage from "./pages/BlogDetailsPage";
 import ContactPage from "./pages/ContactPage";
 import Viagens from "./pages/Viagens";
+import Pet from "./pages/Pet";
 
 function App() {
   useEffect(() => {
@@ -33,6 +34,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<HomeFive />} />
         <Route exact path="/viagens" element={<Viagens />} />
+        <Route exact path="/pet" element={<Pet />} />
         
         {/* <Route exact path="/index-2" element={<HomeTwo />} />
         <Route exact path="/index-3" element={<HomeThree />} />

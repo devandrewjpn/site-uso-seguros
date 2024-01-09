@@ -1,5 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
+const steps = [
+  {
+    id: 1,
+    text: 'Download',
+    description: 'Baixe app USO ou clique na opção contratar Assistência USO PET.'
+  },
+  {
+    id: 2,
+    text: 'Planos',
+    description: 'Escolha seu plano que mais tem a ver com você.'
+  },
+  {
+    id: 3,
+    text: 'Instruções',
+    description: 'Após contratação você receberá um e-mail/SMS com todas as informações e instruções para acessar os serviços.'
+  },
+  {
+    id: 4,
+    text: 'Tudo pronto, só começar a usar!',
+    description: 'Agora você tem acesso ao seus dados, planos, dados do seu pet e tudo que precisa!'
+  },
+]
+
 const WorkProcessTwo = () => {
   return (
     <>
@@ -9,68 +33,27 @@ const WorkProcessTwo = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="process__title-wrap-3" data-aos="fade-up">
-                <h2 className="sec-title text-capitalize">
-                  Let's create something <br /> amazing together
+                <h2 className="sec-title text-white text-start">
+                  CONTRATE COM A FACILIDADE<br />QUE SÓ A USO TE OFERECE
                 </h2>
               </div>
               <div className="process__list-3">
-                <div
-                  className="process__item-3"
-                  data-aos="fade-up"
-                  data-aos-delay={200}
-                >
-                  <div className="serial">01</div>
-                  <div className="process__content-3">
-                    <h3 className="process__title-3">Creative Craze</h3>
-                    <p>
-                      Health and medical is a encompasses a wide range of topics
-                      related to health
-                    </p>
-                  </div>
-                  <div className="process__btn-3">
-                    <Link className="db-btn-border" to="/about">
-                      read more <i className="fa-solid fa-arrow-right" />
-                    </Link>
-                  </div>
-                </div>
-                <div
-                  className="process__item-3"
-                  data-aos="fade-up"
-                  data-aos-delay={400}
-                >
-                  <div className="serial">02</div>
-                  <div className="process__content-3">
-                    <h3 className="process__title-3">Brand Boost</h3>
-                    <p>
-                      Health and medical is a encompasses a wide range of topics
-                      related to health
-                    </p>
-                  </div>
-                  <div className="process__btn-3">
-                    <Link className="db-btn-border" to="/about">
-                      read more <i className="fa-solid fa-arrow-right" />
-                    </Link>
-                  </div>
-                </div>
-                <div
-                  className="process__item-3"
-                  data-aos="fade-up"
-                  data-aos-delay={600}
-                >
-                  <div className="serial">03</div>
-                  <div className="process__content-3">
-                    <h3 className="process__title-3">Media Minds</h3>
-                    <p>
-                      Health and medical is a encompasses a wide range of topics
-                      related to health
-                    </p>
-                  </div>
-                  <div className="process__btn-3">
-                    <Link className="db-btn-border" to="/about">
-                      read more <i className="fa-solid fa-arrow-right" />
-                    </Link>
-                  </div>
-                </div>
+                {steps.map(step => {
+                  return (
+                    <div
+                      className="process__item-3"
+                      data-aos="fade-up"
+                      data-aos-delay={200}
+                      key={step.id}
+                    >
+                      <div className="serial text-green">{`0${step.id}`}</div>
+                      <div className="process__content-3">
+                        <h3 className="process__title-3 text-white">{step.text}</h3>
+                        <p className="w-100">{step.description}</p>
+                      </div>
+                    </div>
+                  )
+                })}
               </div>
             </div>
           </div>
