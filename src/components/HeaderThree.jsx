@@ -66,15 +66,15 @@ const HeaderThree = () => {
                       <Link to="/pet">Assistência PET</Link>
                     </li>
                     <li>
-                      <Link to="/">Assistência Funeral</Link>
+                      <Link to="/funeral">Assistência Funeral</Link>
                     </li>
                     <li>
-                      <Link to="/">Seguro Saúde</Link>
+                      <Link to="/saude">Seguro Saúde</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <Link to="/">Ajuda</Link>
+                  <Link to="/ajuda">Ajuda</Link>
                 </li>
                 <li>
                   <Link to="/">Meu perfil</Link>
@@ -110,19 +110,19 @@ const HeaderThree = () => {
                   <Link to="/">Início</Link>{" "}
                 </li>
                 <li>
-                  <Link to="/">Seguro Viagem</Link>{" "}
+                  <Link to="/viagens">Seguro Viagem</Link>{" "}
                 </li>
                 <li>
-                  <Link to="/">Assistência PET</Link>{" "}
+                  <Link to="/pet">Assistência PET</Link>{" "}
                 </li>
                 <li>
-                  <Link to="/">Assistência Funerária</Link>{" "}
+                  <Link to="/funeral">Assistência Funerária</Link>{" "}
                 </li>
                 <li>
-                  <Link to="/">Saúde</Link>{" "}
+                  <Link to="/saude">Saúde</Link>{" "}
                 </li>
                 <li>
-                  <Link to="/">Ajuda</Link>{" "}
+                  <Link to="/ajuda">Ajuda</Link>{" "}
                 </li>
               </ul>
             </nav>

@@ -1,6 +1,6 @@
 const PetPromoPhrase = () => {
     return (
-        <section className="pet__promo">
+        <section className="default__promo pet_promo_bg">
             <div className="container">
                 <h3 className="text-white">Pronto para oferecer o melhor para seu pet?</h3>
                 <p className="text-white my-3">Clique no botão abaixo e torne-se parte da família USO de tutores que escolhem o melhor para seus pets.</p>

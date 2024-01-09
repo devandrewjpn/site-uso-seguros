@@ -1,22 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import AOS from "aos";
-import HomeOne from "./pages/HomeOne";
 import ScrollToTop from "react-scroll-to-top";
 import RouteScrollToTop from "./elements/RouteScrollToTop";
-import About from "./pages/About";
-import HomeTwo from "./pages/HomeTwo";
-import HomeThree from "./pages/HomeThree";
-import HomeFour from "./pages/HomeFour";
 import HomeFive from "./pages/HomeFive";
-import ServiceDetailsPage from "./pages/ServiceDetailsPage";
-import ProjectPage from "./pages/ProjectPage";
-import ProjectDetailsPage from "./pages/ProjectDetailsPage";
-import BlogPage from "./pages/BlogPage";
-import BlogDetailsPage from "./pages/BlogDetailsPage";
-import ContactPage from "./pages/ContactPage";
 import Viagens from "./pages/Viagens";
 import Pet from "./pages/Pet";
+import Funeral from "./pages/Funeral";
+import Saude from "./pages/Saude";
+import Help from "./pages/Help";
 
 function App() {
   useEffect(() => {
@@ -35,6 +27,9 @@ function App() {
         <Route exact path="/" element={<HomeFive />} />
         <Route exact path="/viagens" element={<Viagens />} />
         <Route exact path="/pet" element={<Pet />} />
+        <Route exact path="/funeral" element={<Funeral />} />
+        <Route exact path="/saude" element={<Saude />} />
+        <Route exact path="/ajuda" element={<Help />} />
         
         {/* <Route exact path="/index-2" element={<HomeTwo />} />
         <Route exact path="/index-3" element={<HomeThree />} />

@@ -726,6 +726,12 @@ HOME FIVE PRICING
         p {
           color: var(--black);
         }
+        li {
+          color: var(--black);
+        }
+        strong {
+          color: var(--black);
+        }
       }
     }
   }
@@ -733,6 +739,8 @@ HOME FIVE PRICING
     background: #252525;
     padding: 40px;
     transition: 0.6s;
+    min-height: 300px;
+    height: 100%;
     @media #{$lg} {
       padding: 25px;
     }
