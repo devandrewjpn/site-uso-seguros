@@ -10,6 +10,75 @@ HOME FIVE HERO
   background: #1e1e1e;
 }
 
+.skll__socials {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-left: 1rem;
+
+  a {
+    color: var(--white);
+    font-size: 20px;
+    transition: .6s;
+
+    &:hover {
+      background-color: var(--primary);
+      color: var(--secondary);
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+    }
+  }
+
+  @media #{$sm} {
+    display: none;
+  }
+}
+
+.skll__carousel_prev {
+  width: 50px;
+  height: 50px;
+  background: var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  z-index: 3;
+  @media #{$sm} {
+    display: none;
+  }
+  &:hover {
+    background: var(--primary);
+    color: var(--secondary)
+  }
+}
+.skll__carousel_next {
+  @extend .skll__carousel_prev;
+  right: 0;
+  @media #{$sm} {
+    font-size: 30px;
+  }
+}
+
+.skll__arrows_bottom {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-bottom: 2rem;
+  margin-left: -100px;
+}
+
+.skll__arrows_bottom__auto {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-bottom: 2rem;
+  margin-left: -100px;
+}
+
 .hero {
   &__area {
     &-5 {
@@ -690,17 +759,19 @@ HOME FIVE PRICING
 */
 
 .pricing {
+  transition: .7s;
   &__area {
     &-5 {
       padding-bottom: 150px;
       @media #{$md} {
         padding-bottom: 60px;
+        display: none;
       }
     }
   }
   &__items-5 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     @media #{$md} {
       grid-template-columns: 1fr 1fr;
@@ -716,22 +787,22 @@ HOME FIVE PRICING
     }
     &:hover {
       .pricing__header-5 {
-        background: var(--yellow-2);
-        .title {
-          color: var(--black);
-        }
-        .title-2 {
-          color: var(--black);
-        }
-        p {
-          color: var(--black);
-        }
-        li {
-          color: var(--black);
-        }
-        strong {
-          color: var(--black);
-        }
+        box-shadow:inset 0px 0px 0px 2px var(--primary);
+        // .title {
+        //   color: var(--black);
+        // }
+        // .title-2 {
+        //   color: var(--black);
+        // }
+        // p {
+        //   color: var(--black);
+        // }
+        // li {
+        //   color: var(--black);
+        // }
+        // strong {
+        //   color: var(--black);
+        // }
       }
     }
   }
@@ -739,7 +810,8 @@ HOME FIVE PRICING
     background: #252525;
     padding: 40px;
     transition: 0.6s;
-    min-height: 300px;
+    border-radius: 16px;
+    min-height: 250px;
     height: 100%;
     @media #{$lg} {
       padding: 25px;
@@ -802,6 +874,113 @@ HOME FIVE PRICING
   }
 }
 
+.pricing__mobile {
+  transition: .7s;
+  &-5 {
+    padding-bottom: 150px;
+    display: none;
+    @media #{$md} {
+      padding-bottom: 60px;
+      display: block;
+    }
+  }
+  &-items-5 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    @media #{$md} {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media #{$sm} {
+      grid-template-columns: 1fr;
+    }
+  }
+  &-item-5 {
+    position: relative;
+    &:hover {
+      .pricing__header-5 {
+        box-shadow:inset 0px 0px 0px 2px var(--primary);
+        // .title {
+        //   color: var(--black);
+        // }
+        // .title-2 {
+        //   color: var(--black);
+        // }
+        // p {
+        //   color: var(--black);
+        // }
+        // li {
+        //   color: var(--black);
+        // }
+        // strong {
+        //   color: var(--black);
+        // }
+      }
+    }
+  }
+  &-header-5 {
+    background: #252525;
+    padding: 40px;
+    transition: 0.6s;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    @media #{$lg} {
+      padding: 25px;
+    }
+    .title {
+      color: var(--white);
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+    .title-2 {
+      color: var(--white);
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1;
+      padding-bottom: 20px;
+      span {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 1;
+        letter-spacing: 0.16px;
+        text-transform: uppercase;
+      }
+    }
+    p {
+      color: var(--white);
+    }
+  }
+  &-feature-5 {
+    background: #26343f;
+    padding: 40px;
+    padding-bottom: 60px;
+  }
+  &-feature-list {
+    li {
+      color: var(--white);
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1;
+      margin-bottom: 20px;
+    }
+  }
+  &-btn {
+    display: inline-block;
+    width: 67px;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+    background: var(--primary);
+    border-radius: 50px;
+  }
+}
 /*
 
 -----------------------

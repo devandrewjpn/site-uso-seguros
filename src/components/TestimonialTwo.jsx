@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { Navigation } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 
 const clients = [
   {
@@ -28,19 +28,13 @@ const clients = [
 
 const TestimonialTwo = () => {
   const swiperRef = useRef();
+  const swiper = useSwiper();
   return (
     <>
       {/* testimonial area start */}
       <section className="testimonial__area-5 mt-5 py-5">
         <div className="container">
           <div className="digibold-section-wrapper-5">
-            <h2
-              className="section-subtitle-5 heading-animation"
-              data-aos="fade-up"
-              data-aos-delay={300}
-            >
-              Feedbacks
-            </h2>
             <h3 className="section-title-5 heading-animation">
               Quem faz USO
             </h3>

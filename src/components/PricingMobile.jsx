@@ -32,29 +32,31 @@ const items = [
   },
 ]
 
-const PricingOne = () => {
+const PricingMobile = () => {
   return (
     <>
       {/* pricing area start */}
-      <section className="pricing__area-5 pt-5">
+      <section className="pricing__mobile-5 pt-5">
         <div className="container">
-          <div className="pricing__items-5">
+          <div className="pricing__mobile-items-5">
             {items.map(item => {
               return (
-                <div key={item.id} className="pricing__item-5">
-                  <div className="pricing__header-5 ">
+                <div key={item.id} className="pricing__mobile-item-5">
+                  <div className="pricing__mobile-header-5 ">
+                    <div>
                     <h2 className="title">{item.title}</h2>
                     <h3 className="title-2">
                       <small style={{fontSize: '14px'}}>à partir de</small><br />
                       <span>R$ {item.value}</span>/mês
                     </h3>
-                    <p className="justify__text">{item.description}</p>
-                  </div>
-                  <div className="pricing__btn-wrapper">
-                    <Link className="pricing__btn" to={item.redirect}>
+                    </div>
+                    <div className="pricing__mobile-btn-wrapper">
+                    <Link className="pricing__mobile-btn" to={item.redirect}>
                       <i className="fa-solid fa-arrow-right" />
                     </Link>
                   </div>
+                  </div>
+                  
                 </div>
               )
             })}
@@ -67,4 +69,4 @@ const PricingOne = () => {
   );
 };
 
-export default PricingOne;
+export default PricingMobile;

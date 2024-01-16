@@ -7,20 +7,17 @@ const HistoryOne = () => {
       <section className="history__area-5 pt-5" style={{ background: 'black' }}>
         <div className="container pt-5">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-7">
               <div
                 className="digibold-section-wrapper-5"
                 data-aos="fade-up"
                 data-aos-delay={300}
               >
-                <h2 className="section-subtitle-5 heading-animation">
-                  CONFIANÇA
-                </h2>
                 <h3 className="section-title-5 heading-animation">
-                  Online, completo, intuitivo e acessível
+                  Online, completo,<br />intuitivo e acessível
                 </h3>
               </div>
-              <div className="history__content-5">
+              {/* <div className="history__content-5">
                 <p className="text-white justify__text mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error deserunt magni id blanditiis eaque cumque dolore recusandae fugiat porro perspiciatis cupiditate, dolores non sunt nostrum delectus illum ipsa vero odit.</p>
                 <p className="text-white justify__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error deserunt magni id blanditiis eaque cumque dolore recusandae fugiat porro perspiciatis cupiditate, dolores non sunt nostrum delectus illum ipsa vero odit.</p>
               </div>
@@ -44,7 +41,7 @@ const HistoryOne = () => {
                     <p>Compatível com todos os sistemas operacionais.</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <div className="newsletter__form-wrapper-5">
                 <a href="/">
@@ -55,24 +52,13 @@ const HistoryOne = () => {
                 </a>
               </div>
             </div>
-            <div className="col-lg-6">
-              <div
-                className="history__thumb-5"
-                data-aos="fade-up"
-                data-aos-delay={300}
-              >
-                <img
+            <div className="col-lg-5">
+              <img
+              className="rounded"
                   src="assets/imgs/app_woman.jpg"
                   alt=""
                   data-lag="0.3"
                 />
-                <div className="history__box-wrapper">
-                  <div className="history__box-5">
-                    <h2 className="title">Clientes</h2>
-                    <h3 className="title-2">2000+</h3>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

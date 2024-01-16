@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import { stickyNav } from "../utils/sticky";
 
 const HeaderThree = () => {
-  const [search, setSearch] = useState(false);
   const [offCanvas, setOffCanvas] = useState(false);
 
   useEffect(() => {
+    stickyNav()
     var offCanvasNav = document.getElementById("offcanvas-navigation");
     var offCanvasNavSubMenu = offCanvasNav.querySelectorAll(".sub-menu");
 
@@ -36,53 +37,56 @@ const HeaderThree = () => {
     }
   }, []);
 
-  const searchControl = () => {
-    setSearch(!search);
-  };
   const offCanvasControl = () => {
-    setSearch(false);
     setOffCanvas(!offCanvas);
   };
   return (
     <>
       {/* Header area start */}
-      <header className="header__area-3 pos-abs plr-100">
-        <div className="header__inner-3">
+      <header className="header__skll header__area-3 pos-abs plr-100">
+        <div className="container header__inner-3">
+          <div className="header__menu-3">
+            <nav className="main-menu-left">
+              <ul>
+                <li className="has-dropdown">
+                  <Link to="#">Soluções USO</Link>
+                  <ul className="main-dropdown">
+                    <li>
+                      <Link to="/viagens">USO Viagem</Link>
+                    </li>
+                    <li>
+                      <Link to="/pet">USO PET</Link>
+                    </li>
+                    <li>
+                      <Link to="/funeral">USO Funeral</Link>
+                    </li>
+                    <li>
+                      <Link to="/saude">USO Saúde</Link>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
           <div className="header__logo">
             <Link to="/">
               <img src="https://usoseguros.com.br/dev/assets/_img/uso-logo.svg" alt="Uso Seguros Logo" />
             </Link>
           </div>
-          <div className="header__menu-3">
-            <nav className="main-menu">
-              <ul>
-                <li className="has-dropdown">
-                  <Link to="#">Benefícios</Link>
-                  <ul className="main-dropdown">
-                    <li>
-                      <Link to="/viagens">Seguro Viagem</Link>
-                    </li>
-                    <li>
-                      <Link to="/pet">Assistência PET</Link>
-                    </li>
-                    <li>
-                      <Link to="/funeral">Assistência Funeral</Link>
-                    </li>
-                    <li>
-                      <Link to="/saude">Seguro Saúde</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <Link to="/ajuda">Ajuda</Link>
-                </li>
-                <li>
-                  <Link to="/">Meu perfil</Link>
-                </li>
-              </ul>
-            </nav>
-          </div>
           <div className="header__others">
+            <div className="header__menu-3">
+              <nav className="main-menu">
+                <ul>
+                  <li>
+                    <Link to="/ajuda">Ajuda</Link>
+                  </li>
+                  <li>
+                    <Link to="/">Meu perfil</Link>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
             <div className="header__offcanvas-3">
               <button className="menu_icon" onClick={offCanvasControl}>
                 <img src="assets/imgs/icon/menu.png" alt="Menu Icon" />
@@ -110,16 +114,16 @@ const HeaderThree = () => {
                   <Link to="/">Início</Link>{" "}
                 </li>
                 <li>
-                  <Link to="/viagens">Seguro Viagem</Link>{" "}
+                  <Link to="/viagens">USO Viagem</Link>{" "}
                 </li>
                 <li>
-                  <Link to="/pet">Assistência PET</Link>{" "}
+                  <Link to="/pet">USO PET</Link>{" "}
                 </li>
                 <li>
-                  <Link to="/funeral">Assistência Funerária</Link>{" "}
+                  <Link to="/funeral">USO Funerária</Link>{" "}
                 </li>
                 <li>
-                  <Link to="/saude">Saúde</Link>{" "}
+                  <Link to="/saude">USO Saúde</Link>{" "}
                 </li>
                 <li>
                   <Link to="/ajuda">Ajuda</Link>{" "}
@@ -130,21 +134,6 @@ const HeaderThree = () => {
           <div className="offcanvas__btm">
             <div className="footer__address-3">
               <ul>
-                <li>
-                  <span>
-                    <i className="fa-solid fa-location-dot" />
-                  </span>
-                  <p className="text-white">Rua Batista Santiago - 81 - BH - MG</p>
-                </li>
-                <li>
-                  <span>
-                    <i className="fa-solid fa-phone" />
-                  </span>
-                  <div>
-                    <Link to="tel:+88014420420">(31) 1234 1234</Link>
-                    <Link hreto="tel:+88014420420">(31) 1234 1234</Link>
-                  </div>
-                </li>
                 <li>
                   <span>
                     <i className="fa-solid fa-envelope" />

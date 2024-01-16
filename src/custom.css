@@ -1,15 +1,29 @@
 .hero__slider {
-  background-position: center!important;
+  background-position: 50% 28%!important;
   background-size: cover!important;
   background-repeat: no-repeat!important;
   width: 100vw!important;
-  height: 90vh!important;
+  height: 70vh!important;
   position: relative;
   z-index: 0;
 }
 
+@media (max-width:600px) {
+  .hero__slider {
+    height: 45vh!important;
+  }
+}
+
 .hero__slider_ {
   background-image: url(../public/assets/imgs/hero.jpg);
+}
+
+.hero__slider_2 {
+  background-image: url(https://images2.alphacoders.com/132/1329016.png);
+}
+
+.hero__slider_3 {
+  background-image: url(https://cdn.wallpapersafari.com/55/87/7cM6SF.jpg);
 }
 
 .hero__slider::after {

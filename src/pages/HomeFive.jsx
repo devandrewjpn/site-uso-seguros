@@ -8,15 +8,19 @@ import PricingOne from "../components/PricingOne";
 import TestimonialTwo from "../components/TestimonialTwo";
 import FooterThree from "../components/FooterThree";
 import ServiceThree from "../components/ServiceThree";
+import LateralSocials from "../components/LateralSocials";
+import PricingMobile from "../components/PricingMobile";
 
 const HomeFive = () => {
   return (
     <>
       <Suspense fallback={<Preloader />}>
+        <LateralSocials />
         <HeaderThree />
         <main className="digibold-five">
           <HeroFive />
           <PricingOne />
+          <PricingMobile />
           <HistoryOne />
           {/* <NewsletterTwo /> */}
           <ServiceThree />

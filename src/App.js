@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={'/novo'}>
       <RouteScrollToTop />
       <Routes>
         <Route exact path="/" element={<HomeFive />} />

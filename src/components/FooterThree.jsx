@@ -50,13 +50,16 @@ const FooterThree = () => {
                       <Link to="/">Fale Conosco</Link>
                     </li>
                     <li>
-                      <Link to="/viagens">Seguro Viagem</Link>
+                      <Link to="/viagens">USO Viagem</Link>
                     </li>
                     <li>
-                      <Link to="/">Assistência PET</Link>
+                      <Link to="/">USO PET</Link>
                     </li>
                     <li>
-                      <Link to="/">Assistência Funeral</Link>
+                      <Link to="/">USO Funeral</Link>
+                    </li>
+                    <li>
+                      <Link to="/">USO Saúde</Link>
                     </li>
                     <li>
                       <Link to="/">FAQ</Link>
@@ -68,12 +71,6 @@ const FooterThree = () => {
                 <div className="footer__address-3">
                   <h2 className="footer__title">Contato e Local</h2>
                   <ul>
-                    <li>
-                      <span>
-                        <i className="fa-solid fa-location-dot" />
-                      </span>
-                      <p>Rua Batista Santiago 81, Liberdade, Belo Horizonte - MG</p>
-                    </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-phone" />
