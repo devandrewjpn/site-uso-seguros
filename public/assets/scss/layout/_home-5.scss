@@ -610,13 +610,6 @@ HOME FIVE TEAM
         padding-left: 50px;
         padding-right: 50px;
       }
-      .team__member {
-        &:hover {
-          .team__content {
-            background-color: var(--primary);
-          }
-        }
-      }
       .team-active-5 {
         .swiper-wrapper {
           padding-bottom: 100px;
@@ -637,9 +630,12 @@ HOME FIVE TEAM
       .team__content {
         max-width: 100%;
         min-height: 200px;
-        background-color: #111111;
+        background-color: #fff;
         text-align: left;
         padding: 100px 20px 20px 30px;
+        h5,small,p {
+          color: #000;
+        }
       }
       .team__image img {
         width: 100%;
@@ -649,8 +645,6 @@ HOME FIVE TEAM
         color: var(--white);
       }
       .team__content p {
-        color: var(--white);
-        text-transform: capitalize;
         padding-top: 0;
       }
       .share__wrap {
@@ -997,7 +991,7 @@ HOME FIVE TESTIMONIAL
 .testimonial-five-prev {
   width: 50px;
   height: 50px;
-  background: #10332f;
+  background: #d8ff36;
   display: flex;
   align-items: center;
   justify-content: center;

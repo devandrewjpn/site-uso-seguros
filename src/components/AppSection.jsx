@@ -13,11 +13,8 @@ const AppSection = () => {
                 data-aos="fade-up"
                 data-aos-delay={300}
               >
-                <h2 className="section-subtitle-5 heading-animation">
-                  APLICATIVO
-                </h2>
                 <h3 className="section-title-5 heading-animation">
-                  Online, completo, intuitivo e acessível
+                Mais de 702 Clínicas credenciadas em todo Brasil
                 </h3>
               </div>
               <div className="history__content-5">
@@ -25,28 +22,7 @@ const AppSection = () => {
                 <p className="text-white justify__text">Com apenas alguns cliques no app USO, você pode facilmente contratar, gerenciar o seguro do seu pet, agendar consultas e acessar serviços, proporcionando a tranquilidade que você e seu pet merecem.</p>
               </div>
 
-              <div className="d-flex flex-column align-items-start justify-content-start gap-5 py-5">
-                <div className="d-flex align-items-start gap-4">
-                  <div className="service__thumb-5">
-                    <img src="assets/imgs/home-5/s3.png" alt="service-icon" />
-                  </div>
-                  <div className="service__content-5">
-                    <h3 className="service__item-title">Facilidade e Flexibilidade no Pagamento</h3>
-                    <p>Tudo que você precisa de maneira ágil e otimizada na palma da sua mão.</p>
-                  </div>
-                </div>
-                <div className="d-flex align-items-start gap-4">
-                  <div className="service__thumb-5">
-                    <img src="assets/imgs/home-5/s3.png" alt="service-icon" />
-                  </div>
-                  <div className="service__content-5">
-                    <h3 className="service__item-title">Pague mensal via cartão de crédito sem bloquear seu Limite!</h3>
-                    <p>Meio fácil de pagamento para melhor acessibilidade de seu plano.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="newsletter__form-wrapper-5">
+              <div className="newsletter__form-wrapper-5 mt-4">
                 <a href="/">
                   <img width={250} height={88} src="https://play.google.com/intl/pt-BR/badges/static/images/badges/pt-br_badge_web_generic.png" alt="" />
                 </a>
@@ -62,16 +38,17 @@ const AppSection = () => {
                 data-aos-delay={300}
               >
                 <img
-                  src="assets/imgs/pet__mobile_img.jpg"
+                className="rounded"
+                  src="https://img.freepik.com/fotos-gratis/cao-sendo-acariciado-por-mulher_23-2148567022.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1705276800&semt=ais"
                   alt=""
                   data-lag="0.3"
                 />
-                <div className="history__box-wrapper">
+                {/* <div className="history__box-wrapper">
                   <div className="history__box-5">
                     <h2 className="title">Clientes</h2>
                     <h3 className="title-2">2000+</h3>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

@@ -19,7 +19,7 @@ const Pet = () => {
           <HeroPet />
           <PetTable />
           <AppSection />
-          <Why subtitle='Mitos e Realidades' title='Seguro Pet com a USO?' questions={PetWhyQuestions} />
+          <Why title='Mitos e Realidades: Por que você deve contratar um Seguro Pet com a USO?' questions={PetWhyQuestions} />
           <WorkProcessTwo />
           <PetPromoPhrase />
         </main>

@@ -8,6 +8,7 @@ import FuneralWhy from "../components/FuneralWhy";
 import Why from "../components/Why";
 import { FuneralWhyQuestions } from "../data/funeral_why_questions";
 import FuneralPromoPhrase from "../components/FuneralPromoPhrase";
+import FuneralPricingMobile from "../components/FuneralPricingMobile";
 
 const Funeral = () => {
   return (
@@ -17,8 +18,9 @@ const Funeral = () => {
         <main className="digibold-five">
           <HeroFuneral />
           <FuneralPricing />
+          <FuneralPricingMobile />
           <FuneralWhy />
-          <Why subtitle='Desvendando Mitos Funerários' title='Verdades que Você Deveria Conhecer' questions={FuneralWhyQuestions} />
+          <Why title='Desvendando Mitos Funerários: Verdades que Você Deveria Conhecer' questions={FuneralWhyQuestions} />
           <FuneralPromoPhrase />
         </main>
         <FooterThree />

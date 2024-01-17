@@ -113,39 +113,56 @@ const RemoveIcon = () => <img width={25} src="assets/imgs/x_icon.png" alt="" />
 const PetTable = () => {
     return (
 
-        <div className="container py-5">
+        <div id="price_table" className="container py-5">
             <div className="about__content-6">
-                <h2 className="text-green sec-subtitle-2">TABELA DE PREÇOS</h2>
                 <h3 className="sec-title underline-2 text-white">
                     Conheça nossos planos
                 </h3>
 
-                <table className="pet__table">
-                    <thead>
-                        <tr>
-                            <th>Garanta para o seu PET</th>
-                            <th>Plano Básico: R$19,90 / mês</th>
-                            <th>Plano Completo: R$39,90 / mês</th>
-                            <th>Plano Plus: R$59,90 / mês</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {items.map(item => {
-                            return (
-                                <tr key={item.id}>
-                                    <td>{item.benefit}</td>
-                                    <td>{item.basico === '' ? <RemoveIcon /> : item.basico}</td>
-                                    <td>{item.completo === '' ? <RemoveIcon /> : item.completo}</td>
-                                    <td>{item.plus === '' ? <RemoveIcon /> : item.plus}</td>
-                                </tr>
-                            )
-                        })}
-                    </tbody>
-                </table>
-
-                <Link className="db-btn-arrow text-white" to="#">
-                    Cotar agora <i className="fa-solid fa-arrow-right" />
-                </Link>
+                <div style={{ boxShadow: 'rgba(0, 0, 0, 0.2) 0px 8px 24px' }}>
+                    <table className="pet__table">
+                        <thead>
+                            <tr>
+                                <th className="text-uppercase" style={{ color: '#d8ff36' }}>Garanta para o seu PET</th>
+                                <th className="text-uppercase" style={{ color: '#d8ff36' }}>Plano Básico: R$19,90 / mês</th>
+                                <th className="text-uppercase" style={{ color: '#d8ff36' }}>Plano Completo: R$39,90 / mês</th>
+                                <th className="text-uppercase" style={{ color: '#d8ff36' }}>Plano Plus: R$59,90 / mês</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {items.map(item => {
+                                return (
+                                    <tr key={item.id}>
+                                        <td>{item.benefit}</td>
+                                        <td>{item.basico === '' ? '--' : item.basico}</td>
+                                        <td>{item.completo === '' ? '--' : item.completo}</td>
+                                        <td>{item.plus === '' ? '--' : item.plus}</td>
+                                    </tr>
+                                )
+                            })}
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th></th>
+                                <th>
+                                    <Link className="db-btn-arrow text-white" to="#">
+                                        Contrate agora <i className="fa-solid fa-arrow-right" />
+                                    </Link>
+                                </th>
+                                <th>
+                                    <Link className="db-btn-arrow text-white" to="#">
+                                        Contrate agora <i className="fa-solid fa-arrow-right" />
+                                    </Link>
+                                </th>
+                                <th>
+                                    <Link className="db-btn-arrow text-white" to="#">
+                                        Contrate agora <i className="fa-solid fa-arrow-right" />
+                                    </Link>
+                                </th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
             </div>
 
         </div>

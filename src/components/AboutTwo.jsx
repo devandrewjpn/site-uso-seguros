@@ -14,13 +14,12 @@ const AboutTwo = () => {
                   <img className="rounded" src="assets/imgs/telemedicina1.png" alt="digibold" />
                 </div>
                 <div className="image-2">
-                  <img className="rounded" src="assets/imgs/telemedicina2.png" alt="digibold" />
+                  <img className="rounded" width={400} src="assets/imgs/telemedicina2.png" alt="digibold" />
                 </div>
               </div>
             </div>
-            <div className="col-xxl-6 col-xl-6 col-xl-6 col-md-6">
+            <div className="col-xxl-6 col-xl-6 col-xl-6 col-md-6 pt-5">
               <div className="about__content-6">
-                <h2 className="text-green sec-subtitle-2">TELEMEDICINA</h2>
                 <h3 className="sec-title underline-2 text-white">
                   Conexão com a Excelência
                 </h3>

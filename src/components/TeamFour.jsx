@@ -24,8 +24,26 @@ const places = [
   },
   {
     id: 4,
-    title: 'Ásia',
-    image: 'https://storage.googleapis.com/primesecure/asia.webp',
+    title: 'América (Inclui México)',
+    image: 'https://storage.googleapis.com/primesecure/america.webp',
+    price: '10,61',
+  },
+  {
+    id: 5,
+    title: 'Oceania',
+    image: 'https://storage.googleapis.com/primesecure/oceania.webp',
+    price: '12,95',
+  },
+  {
+    id: 6,
+    title: 'África',
+    image: 'https://storage.googleapis.com/primesecure/africa.webp',
+    price: '12,95',
+  },
+  {
+    id: 7,
+    title: 'Múltiplos Destinos',
+    image: 'https://storage.googleapis.com/primesecure/multiplos-destinos.webp',
     price: '12,95',
   },
 ]
@@ -36,17 +54,13 @@ const TeamFour = () => {
   return (
     <>
       {/* Team area start */}
-      <section className="team__area-5 pt-150 swiper">
+      <section className="team__area-5 pt-150 pb-150 swiper">
         <div className="row">
           <div className="col-lg-4">
             <div className="team__left-5" data-aos="fade-up">
-              <span className="team__subtitle-5 heading-animation text-green">
-                produtos
-              </span>
-              <h3 className="team__sub-5">Nossos</h3>
               <h2 className="team__title-5">
                 {" "}
-                 planos
+                EXPLORE NOSSOS PLANOS
               </h2>
               <div
                 className="testimonial-five-prev cursor"
@@ -101,8 +115,9 @@ const TeamFour = () => {
                                 </button>
                               </div>
                             </div>
-                            <div className="team__content">
-                              <h5 className="team__title">{place.title}</h5>
+                            <div className="team__content" style={{background:'#fff!important',color:"#000!important"}}>
+                              <h5 className="team__title mb-4" style={{textTransform: 'inherit!important'}}>{place.title}</h5>
+                              <small>A partir de:</small>
                               <p>R$ {place.price} <small>/ dia</small></p>
                             </div>
                           </div>

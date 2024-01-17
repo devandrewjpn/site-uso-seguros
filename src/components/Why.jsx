@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-const Why = ({subtitle,title,questions}) => {
+const Why = ({title,questions}) => {
   const swiperRef = useRef();
   return (
     <>
@@ -10,14 +10,7 @@ const Why = ({subtitle,title,questions}) => {
       <section className="testimonial__area-5 mt-5 py-5">
         <div className="container">
           <div className="digibold-section-wrapper-5">
-            <h2
-              className="section-subtitle-5 heading-animation"
-              data-aos="fade-up"
-              data-aos-delay={300}
-            >
-              {subtitle}
-            </h2>
-            <h3 className="section-title-5 heading-animation">
+            <h3 className="section-title-5 heading-animation w-75" style={{textTransform: 'inherit'}}>
               {title}
             </h3>
             {/* If we need navigation buttons */}
@@ -37,7 +30,7 @@ const Why = ({subtitle,title,questions}) => {
           <div className="testimonial__wrapper-5">
             <div className=" testimonial-five-active">
               <Swiper
-                spaceBetween={20}
+                spaceBetween={10}
                 modules={[Navigation]}
                 onBeforeInit={(swiper) => {
                   swiperRef.current = swiper;
@@ -45,7 +38,7 @@ const Why = ({subtitle,title,questions}) => {
                 slidesPerView={1}
                 breakpoints={{
                   768: {
-                    slidesPerView: 2,
+                    slidesPerView: 1,
                   },
                   992: {
                     slidesPerView: 2,
@@ -67,8 +60,8 @@ const Why = ({subtitle,title,questions}) => {
                             </div>
                           </div>
                           <div className="p-animation">
-                            <p className="justify__text fw__300"><strong className="fw__600">Mito: </strong>{client.myth}</p><br />
-                            <p className="justify__text fw__300"><strong className="fw__600">Realidade: </strong>{client.true}</p>
+                            <p className="justify__text fw__300"><strong className="fw__600"><span style={{color:'#d8ff36',textTransform: 'uppercase'}}>Mito: </span></strong>{client.myth}</p>
+                            <p className="justify__text fw__300"><strong className="fw__600"><span style={{color:'#d8ff36',textTransform: 'uppercase'}}>Realidade: </span></strong>{client.true}</p>
                           </div>
                         </div>
                       </div>

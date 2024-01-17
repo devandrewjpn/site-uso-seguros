@@ -13,7 +13,6 @@
     height: 45vh!important;
   }
 }
-
 .hero__slider_ {
   background-image: url(../public/assets/imgs/hero.jpg);
 }
@@ -45,10 +44,10 @@
   /* background-image: url(../public/assets/imgs/hero_saude2.jpg); */
 }
 .pet__hero {
-  background-image: url(https://www.estadao.com.br/recomenda/wp-content/uploads/2023/05/andrew-s-ouo1hbizWwo-unsplash.jpg);
+  background-image: url(../public/assets/imgs/hero_pet.jpg);
 }
 .funeral__hero {
-  background-image: url(../public/assets/imgs/hero_funeral.jpg);
+  background-image: url(https://www.casaderepousoemfamilia.com.br/wp-content/uploads/2020/12/lazer-idosos.jpg);
 }
 .justify__text {
   text-align: justify!important;
@@ -84,17 +83,18 @@
   height: 60px;
   padding: 0 1rem;
   border-radius: 8px;
-  color: var(--primary);
+  color: var(--secondary);
   font-weight: 800;
   background: rgb(240, 240, 240);
 }
 .travel__form_input::placeholder {
-  color: var(--primary);
+  color: var(--secondary);
 }
 .travel__form_button {
   background: var(--primary);
   border-radius: 8px;
-  color: var(--secondary);
+  color: var(--white);
+  border: 0;
   height: 60px;
   font-size: 1.2em;
   padding: 0 1rem;

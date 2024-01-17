@@ -21,7 +21,7 @@ const Viagens = () => {
           <AboutTwo />
           <ServiceFive />
           <AboutFive />
-          <Why subtitle='Diferencial' title='eu sei por que uso' questions={TravelWhyQuestions} />
+          <Why title='Eu sei por que USO' questions={TravelWhyQuestions} />
         </main>
         <FooterThree />
       </Suspense>

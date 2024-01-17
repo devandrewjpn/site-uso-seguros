@@ -12,22 +12,19 @@ const HeroViagens = () => {
                     spaceBetween={50}
                     slidesPerView={1}
                 >
-                    <SwiperSlide className="hero__slider viagens__hero">
+                    <SwiperSlide className="hero__slider viagens__hero" style={{height: '70vh!important'}}>
                         <div className="container h-100">
                             <div className="row h-100">
                                 <div className="col-md-9">
                                 <div className="hero__content-5 h-100 d-flex flex-column justify-content-center">
-                                <h2 className="hero__title-5 cxufadeUp2">
-                                    Sua jornada, nossa <span>missão</span></h2>
-                                <p className="hero__dis-5 cxufadeUp2">
-                                    Seguro viagem USO.
-                                </p>
+                                <h4 className="hero__title-5 cxufadeUp2" style={{fontSize: '3.125rem'}}>
+                                    USO Viagem: Sua jornada, nossa missão</h4>
                                 <div className="cxufadeUp2">
                                     <TravelForm />
                                 </div>
-                                <small className="text-white mt-4 cxufadeUp2">Relaxe e aproveite cada momento, nós cuidamos dos detalhes para que sua única
+                                <p className="text-white mt-4 cxufadeUp2" style={{fontSize: '1.125rem'}}>Relaxe e aproveite cada momento, nós cuidamos dos detalhes para que sua única
                                     preocupação<br />seja viver ao máximo. Sua jornada merece a melhor proteção, sua
-                                    história merece a USO!</small>
+                                    história merece a USO!</p>
                             </div>
                                 </div>
                             </div>

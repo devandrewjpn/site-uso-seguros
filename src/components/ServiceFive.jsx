@@ -6,19 +6,19 @@ const items = [
     id: 1,
     title: 'VIAJE COM TRANQUILIDADE',
     description: 'Com a USO e nossos parceiros, você está pronto para explorar o mundo, sabendo que cada passo da sua jornada está protegido.',
-    icon: 'assets/imgs/home-5/s3.png',
+    icon: 'assets/imgs/viaje.png',
   },
   {
     id: 2,
     title: 'ESCOLHA PERSONALIZADA',
     description: 'Escolha sem complicação o plano de seguro que se encaixa na sua próxima aventura.',
-    icon: 'assets/imgs/home-5/s1.png',
+    icon: 'assets/imgs/escolha.png',
   },
   {
     id: 3,
     title: 'COMPRA SIMPLES E SEGURA',
     description: 'Em poucos passos, seu seguro está pronto. Sem letras miúdas.',
-    icon: 'assets/imgs/home-5/s2.png',
+    icon: 'assets/imgs/compra_simples.png',
   }
 ]
 
@@ -38,7 +38,7 @@ const ServiceFive = () => {
                   key={item.id}
                 >
                   <div className="service__thumb-5">
-                    <img src={item.icon} alt="service-icon" />
+                    <img width={100} src={item.icon} alt="service-icon" />
                   </div>
                   <div className="service__content-5">
                     <Link to="#">

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const items = [
     {
         id: 1,
-        title: 'Proteção Essencial',
+        title: 'USO SAÚDE I - Proteção Essencial',
         value: 30,
         redirect: '/saude',
         description: "O básico não precisa ser básico",
@@ -36,7 +36,7 @@ const items = [
     },
     {
         id: 2,
-        title: 'Proteção Ampliada',
+        title: 'USO SAÚDE II - Proteção Ampliada',
         value: 50,
         redirect: '/saude',
         description: "O dobro de cobertura",
@@ -68,7 +68,7 @@ const items = [
     },
     {
         id: 3,
-        title: 'Proteção Completa',
+        title: 'USO SAÚDE III - Proteção Completa',
         value: 70,
         redirect: '/saude',
         description: "Mais cobertura, mais benefícios e a sorte do seu lado",
@@ -127,6 +127,7 @@ const SaudePricing = () => {
                                     <div className="pricing__header-5 ">
                                         <h2 className="title">{item.title}</h2>
                                         <h3 className="title-2">
+                                            <small>Apenas</small><br />
                                             <span>R$ {item.value}</span>/mês
                                         </h3>
                                         <strong className="justify__text">{item.description}</strong>
