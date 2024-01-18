@@ -119,7 +119,7 @@ const PetTable = () => {
                     Conheça nossos planos
                 </h3>
 
-                <div style={{ boxShadow: 'rgba(0, 0, 0, 0.2) 0px 8px 24px' }}>
+                <div style={{ boxShadow: 'rgba(0, 0, 0, 0.2) 0px 8px 24px' ,overflowX: 'auto'}}>
                     <table className="pet__table">
                         <thead>
                             <tr>

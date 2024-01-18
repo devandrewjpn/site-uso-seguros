@@ -24,13 +24,10 @@ const FaqOne = () => {
     <>
       {/* FAQs area start */}
       <section className="faq__area pt-170 pb-150">
-        <div className="container">
+        <div className="container pt-150">
           <div className="row">
             <div className="col-xxl-6 col-xl-6 col-xl-6 col-md-6">
               <div className="faq__content" data-aos="fade-up">
-                <span className="team__subtitle-5 heading-animation text-green">
-                  AJUDA
-                </span>
                 <h3 className="sec-title text-white">
                   Aqui algumas dúvidas<br />que você pode ter
                 </h3>

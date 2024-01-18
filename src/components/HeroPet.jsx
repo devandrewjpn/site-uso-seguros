@@ -12,7 +12,7 @@ const HeroViagens = () => {
                     spaceBetween={50}
                     slidesPerView={1}
                 >
-                    <SwiperSlide className="hero__slider pet__hero">
+                    <SwiperSlide className="hero__slider pet__hero hero__slider_cover hero__slider__viagens">
                         <div className="container h-100">
                             <div className="row h-100">
                                 <div className="col-md-8">

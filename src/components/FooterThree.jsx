@@ -44,25 +44,22 @@ const FooterThree = () => {
                   <h2 className="footer__title">Links</h2>
                   <ul>
                     <li>
-                      <Link to="/">Quem somos</Link>
-                    </li>
-                    <li>
-                      <Link to="/">Fale Conosco</Link>
+                      <Link to="/ajuda">Fale Conosco</Link>
                     </li>
                     <li>
                       <Link to="/viagens">USO Viagem</Link>
                     </li>
                     <li>
-                      <Link to="/">USO PET</Link>
+                      <Link to="/pet">USO PET</Link>
                     </li>
                     <li>
-                      <Link to="/">USO Funeral</Link>
+                      <Link to="/funeral">USO Funeral</Link>
                     </li>
                     <li>
-                      <Link to="/">USO Saúde</Link>
+                      <Link to="/saude">USO Saúde</Link>
                     </li>
                     <li>
-                      <Link to="/">FAQ</Link>
+                      <Link to="/ajuda">FAQ</Link>
                     </li>
                   </ul>
                 </div>

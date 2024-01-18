@@ -58,7 +58,7 @@ const TeamFour = () => {
         <div className="row">
           <div className="col-lg-4">
             <div className="team__left-5" data-aos="fade-up">
-              <h2 className="team__title-5">
+              <h2 className="team__title-5" style={{fontSize: 50}}>
                 {" "}
                 EXPLORE NOSSOS PLANOS
               </h2>

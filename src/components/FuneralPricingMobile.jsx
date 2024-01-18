@@ -3,20 +3,20 @@ import { Link } from "react-router-dom";
 
 const items = [
     {
-        id: 1,
-        title: 'Plano básico',
-        value: 0,
-        redirect: '/',
-        description: "Inclui todos os serviços essenciais para um funeral digno"
+      id: 1,
+      title: 'Plano básico',
+      value: '7,50',
+      redirect: '/',
+      description: "Cobertura para acidente de trânsito, Inclui cremação"
     },
     {
-        id: 2,
-        title: 'Plano completo',
-        value: 0,
-        redirect: '/',
-        description: "Oferece serviços adicionais, como cerimônias personalizadas"
+      id: 2,
+      title: 'Plano completo',
+      value: '8,50',
+      redirect: '/',
+      description: "Cobertura para qualquer causa morte, Inclui cremação"
     }
-]
+  ]
 
 const FuneralPricingMobile = () => {
     return (

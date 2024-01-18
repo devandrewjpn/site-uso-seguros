@@ -22,11 +22,11 @@ const HeroFive = () => {
           <SwiperSlide className="hero__slider hero__slider_">
             <div className="position-relative container h-100">
               <div className="hero__content-5 h-100 d-flex flex-column justify-content-center">
-                <h2 className="hero__title-5 cxufadeUp2">
+                {/* <h2 className="hero__title-5 cxufadeUp2">
                   Tudo em um só <span>USO</span></h2>
                 <p className="hero__dis-5 cxufadeUp2">
                   Seguros simplificados, vida facilitada {" "}
-                </p>
+                </p> */}
               </div>
               <div className="skll__arrows_bottom d-flex gap-1 align-items-center px-5">
                   <div
@@ -47,11 +47,11 @@ const HeroFive = () => {
           <SwiperSlide className="hero__slider hero__slider_2">
             <div className="position-relative container h-100">
               <div className="hero__content-5 h-100 d-flex flex-column justify-content-center">
-                <h2 className="hero__title-5 cxufadeUp2">
+                {/* <h2 className="hero__title-5 cxufadeUp2">
                   slide 2</h2>
                 <p className="hero__dis-5 cxufadeUp2">
                 😁😁😁
-                </p>
+                </p> */}
               </div>
               <div className="skll__arrows_bottom d-flex gap-1 align-items-center px-5">
                   <div
@@ -72,11 +72,11 @@ const HeroFive = () => {
           <SwiperSlide className="hero__slider hero__slider_3">
             <div className="position-relative container h-100">
               <div className="hero__content-5 h-100 d-flex flex-column justify-content-center">
-                <h2 className="hero__title-5 cxufadeUp2">
+                {/* <h2 className="hero__title-5 cxufadeUp2">
                   slide 3</h2>
                 <p className="hero__dis-5 cxufadeUp2">
                 😁😁😁
-                </p>
+                </p> */}
               </div>
               <div className="skll__arrows_bottom d-flex gap-1 align-items-center px-5">
                   <div

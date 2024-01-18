@@ -12,10 +12,10 @@ const HeroViagens = () => {
                     spaceBetween={50}
                     slidesPerView={1}
                 >
-                    <SwiperSlide className="hero__slider viagens__hero" style={{height: '70vh!important'}}>
+                    <SwiperSlide className="hero__slider__viagens hero__slider viagens__hero hero__slider_cover" style={{height: '70vh!important'}}>
                         <div className="container h-100">
                             <div className="row h-100">
-                                <div className="col-md-9">
+                                <div className="col-md-10">
                                 <div className="hero__content-5 h-100 d-flex flex-column justify-content-center">
                                 <h4 className="hero__title-5 cxufadeUp2" style={{fontSize: '3.125rem'}}>
                                     USO Viagem: Sua jornada, nossa missão</h4>

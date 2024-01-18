@@ -6,24 +6,24 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const services = [
   {
     id: 1,
-    icon: 'assets/imgs/Funerária.png',
+    icon: 'assets/imgs/Funeraria.png',
     title: 'Assistência Funerária',
     text: 'Com a USO, Enfrente Momentos Difíceis com Dignidade e Respeito - Assistência Funerária que Cuida de Cada Detalhe.',
-    href: '/'
+    href: '/funeral'
   },
   {
     id: 2,
     icon: 'assets/imgs/Pet.png',
     title: 'Assistência Pet',
     text: 'USO Pet: Proteção e Cuidado para seu Melhor Amigo - Assistência Completa para a Saúde e Bem-estar do seu Animal de Estimação.',
-    href: '/'
+    href: '/pet'
   },
   {
     id: 3,
     icon: 'assets/imgs/Saúde.png',
     title: 'Assistência Saúde',
     text: 'USO Saúde: Atendimento Médico a Qualquer Hora, em Qualquer Lugar - Sua Saúde Conectada às Melhores Soluções.',
-    href: '/'
+    href: '/saude'
   },
   {
     id: 4,
@@ -59,6 +59,14 @@ const ServiceThree = () => {
                   swiperRef.current = swiper;
                 }}
                 slidesPerView={3}
+                breakpoints={{
+                  400: {
+                    slidesPerView: 1,
+                  },
+                  1024: {
+                    slidesPerView: 3,
+                  },
+                }}
               >
                 {services.map(service => {
                   return (

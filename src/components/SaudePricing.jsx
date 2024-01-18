@@ -120,7 +120,7 @@ const SaudePricing = () => {
             {/* pricing area start */}
             <section className="pricing__area-5 pt-5">
                 <div className="container">
-                    <div className="pricing__items-5">
+                    <div className="grid_3 pricing__items-5">
                         {items.map(item => {
                             return (
                                 <div key={item.id} className="pricing__item-5 text-white">

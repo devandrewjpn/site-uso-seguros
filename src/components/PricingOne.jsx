@@ -13,21 +13,21 @@ const items = [
     id: 2,
     title: 'USO PET',
     value: 10,
-    redirect: '/',
+    redirect: '/pet',
     description: "Conheça todas as opções"
   },
   {
     id: 3,
     title: 'USO funerária',
     value: 13,
-    redirect: '/',
+    redirect: '/funeral',
     description: "Conheça todas as opções"
   },
   {
     id: 4,
     title: 'USO saúde',
     value: 30,
-    redirect: '/',
+    redirect: '/saude',
     description: "Conheça todas as opções"
   },
 ]

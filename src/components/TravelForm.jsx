@@ -12,7 +12,7 @@ const HeroViagens = () => {
                 <option value="2 Passageiros">2 Passageiros</option>
             </select>
 
-            <button className="travel__form_button" type="button">Cote agora</button>
+            <button className="travel__form_button" type="button">COTE AGORA</button>
         </div>
     )
 }

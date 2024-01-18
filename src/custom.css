@@ -10,29 +10,44 @@
 
 @media (max-width:600px) {
   .hero__slider {
-    height: 45vh!important;
+    height: 65vh!important;
+  }
+  .hero__slider_ {
+    background: url(../public/assets/imgs/home_mobile_1.png)!important;
+    background-size: cover!important;
+  }
+  
+  .hero__slider_2 {
+    background: url(../public/assets/imgs/home_mobile_2.png)!important;
+    background-size: cover!important;
+  }
+  
+  .hero__slider_3 {
+    background: url(../public/assets/imgs/home_mobile_3.png)!important;
+    background-size: cover!important;
   }
 }
+
 .hero__slider_ {
-  background-image: url(../public/assets/imgs/hero.jpg);
+  background: url(../public/assets/imgs/home_1.png);
 }
 
 .hero__slider_2 {
-  background-image: url(https://images2.alphacoders.com/132/1329016.png);
+  background: url(../public/assets/imgs/home_2.png);
 }
 
 .hero__slider_3 {
-  background-image: url(https://cdn.wallpapersafari.com/55/87/7cM6SF.jpg);
+  background: url(../public/assets/imgs/home_3.png);
 }
 
-.hero__slider::after {
+.hero__slider_cover::after {
   content: '';
   position: absolute;
   inset: 0 0 0 0;
   background: black;
   opacity: .7;
   z-index: 1;
-}  
+}
 
 .viagens__hero {
   background-image: url(../public/assets/imgs/hero_viagens.jpg);
@@ -40,6 +55,34 @@
 .saude__hero {
   background-image: url(../public/assets/imgs/hero_saude.jpg);
 }
+
+@media (max-width:600px) {
+  .hero__slider_saude {
+    height: 100vh!important;
+  }
+  .hero__slider_saude_ {
+    background: url(../public/assets/imgs/usosaude_banner_mobile1.png)!important;
+    background-size: cover!important;
+  }
+  
+  .hero__slider_saude_2 {
+    background: url(../public/assets/imgs/usosaude_banner_mobile2.png)!important;
+    background-size: cover!important;
+  }
+  .hero__two_columns_icons {
+    grid-template-columns: 1fr!important;
+  }
+}
+
+.hero__slider_saude_ {
+  background: url(../public/assets/imgs/usosaude_banner_1.png);
+}
+
+.hero__slider_saude_2 {
+  background: url(../public/assets/imgs/usosaude_banner_2.png);
+}
+
+
 .saude__hero2 {
   /* background-image: url(../public/assets/imgs/hero_saude2.jpg); */
 }
@@ -66,7 +109,9 @@
 }
 
 /* travel form styles */
-
+.grid_3 {
+  grid-template-columns: repeat(3,1fr)!important;
+}
 .travel__form {
   background: var(--secondary);
   border-radius: 8px;
@@ -80,8 +125,9 @@
   flex-wrap: wrap;
 }
 .travel__form_input {
-  height: 60px;
+  height: 45px;
   padding: 0 1rem;
+  border: none;
   border-radius: 8px;
   color: var(--secondary);
   font-weight: 800;
@@ -95,13 +141,25 @@
   border-radius: 8px;
   color: var(--white);
   border: 0;
-  height: 60px;
+  height: 45px;
   font-size: 1.2em;
   padding: 0 1rem;
 }
 .travel__form_button:hover {
   opacity: 0.7;
   transition: .2s;
+}
+@media (max-width:600px) {
+  .travel__form {
+    flex-direction: column;
+    width: 100%;
+  }
+  .travel__form input,button,select {
+    width: 100%;
+  }
+  .hero__slider__viagens {
+    height: 100vh!important;
+  }
 }
 .text__link {
   position: relative;

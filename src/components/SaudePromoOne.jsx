@@ -37,7 +37,7 @@ const SaudePromoOne = () => {
     return (
         <>
             {/* About area start */}
-            <section className="about__area-6 pt-50 pb-150">
+            <section className="about__area-6 pt-150 pb-150">
                 <div className="container">
                     <div className="row">
                         <div className="col-xxl-6 col-xl-6 col-xl-6 col-md-6">
@@ -48,7 +48,7 @@ const SaudePromoOne = () => {
                             </div>
                         </div>
                         <div className="col-xxl-6 col-xl-6 col-xl-6 col-md-6">
-                            <div className="pt-0 about__content-6">
+                            <div className="pt-50 about__content-6">
                                 <h3 className="sec-title underline-2 text-white" style={{fontSize: 30}}>
                                     Experimente a tranquilidade de ter assistência médica qualificada sempre disponível, sem filas e com toda a privacidade que você merece.
                                 </h3>

@@ -12,7 +12,7 @@ const HeroFuneral = () => {
                     spaceBetween={50}
                     slidesPerView={1}
                 >
-                    <SwiperSlide className="hero__slider funeral__hero">
+                    <SwiperSlide className="hero__slider funeral__hero hero__slider_cover">
                         <div className="container h-100">
                             <div className="row h-100">
                                 <div className="col-md-8">

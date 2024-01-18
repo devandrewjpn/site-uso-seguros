@@ -14,18 +14,18 @@ const HeroSaude = () => {
                     spaceBetween={50}
                     slidesPerView={1}
                 >
-                    <SwiperSlide className="hero__slider saude__hero">
+                    <SwiperSlide className="hero__slider_saude_ hero__slider saude__hero">
                         <div className="container h-100">
-                            <div className="hero__content-5 h-100 d-flex flex-column justify-content-center">
+                            {/* <div className="hero__content-5 h-100 d-flex flex-column justify-content-center">
                                 <h2 className="hero__title-5 cxufadeUp2">
                                 USO Saúde: Seu Médico Online, Cuidado<span> Rápido e Confiável</span></h2>
                                 <p className="hero__dis-5 cxufadeUp2 my-4">Na USO, Redefinimos o Conceito de Cuidado com a Saúde: Em parceria com a SULAMÉRICA, criamos soluções inovadoras de emergência e assistência online. Mais do que um simples plano de saúde, oferecemos um conjunto amplo de benefícios e coberturas, projetados para revolucionar seu cuidado com a saúde.</p>
-                            </div>
+                            </div> */}
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="hero__slider saude__hero">
+                    <SwiperSlide className="hero__slider_saude_2 hero__slider saude__hero">
                         <div className="container h-100">
-                            <div className="hero__content-5 h-100 d-flex flex-column justify-content-center">
+                            {/* <div className="hero__content-5 h-100 d-flex flex-column justify-content-center">
                                 <ul>
                                     <li>
                                         <p className="hero__dis-5 cxufadeUp2">
@@ -49,7 +49,7 @@ const HeroSaude = () => {
                                     </li>
                                 </ul>
                                 
-                            </div>
+                            </div> */}
                         </div>
                     </SwiperSlide>
                 </Swiper>

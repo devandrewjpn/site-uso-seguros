@@ -9,6 +9,7 @@ import Pet from "./pages/Pet";
 import Funeral from "./pages/Funeral";
 import Saude from "./pages/Saude";
 import Help from "./pages/Help";
+import LateralSocials from "./components/LateralSocials";
 
 function App() {
   useEffect(() => {
@@ -23,6 +24,7 @@ function App() {
   return (
     <BrowserRouter basename={'/novo/'}>
       <RouteScrollToTop />
+      <LateralSocials />
       <Routes>
         <Route exact path="/" element={<HomeFive />} />
         <Route exact path="/viagens" element={<Viagens />} />
@@ -30,18 +32,6 @@ function App() {
         <Route exact path="/funeral" element={<Funeral />} />
         <Route exact path="/saude" element={<Saude />} />
         <Route exact path="/ajuda" element={<Help />} />
-        
-        {/* <Route exact path="/index-2" element={<HomeTwo />} />
-        <Route exact path="/index-3" element={<HomeThree />} />
-        <Route exact path="/index-4" element={<HomeFour />} />
-        <Route exact path="/index-5" element={<HomeFive />} />
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/blog" element={<BlogPage />} />
-        <Route exact path="/blog-details" element={<BlogDetailsPage />} />
-        <Route exact path="/project" element={<ProjectPage />} />
-        <Route exact path="/project-details" element={<ProjectDetailsPage />} />
-        <Route exact path="/service-details" element={<ServiceDetailsPage />} />
-        <Route exact path="/contact" element={<ContactPage />} /> */}
       </Routes>
       <ScrollToTop smooth color="#22F55D" />
     </BrowserRouter>
