@@ -18,14 +18,14 @@ const items = [
   },
   {
     id: 3,
-    title: 'USO funerária',
+    title: 'USO Funerária',
     value: 13,
     redirect: '/funeral',
     description: "Conheça todas as opções"
   },
   {
     id: 4,
-    title: 'USO saúde',
+    title: 'USO Saúde',
     value: 30,
     redirect: '/saude',
     description: "Conheça todas as opções"
