@@ -22,9 +22,9 @@ const FuneralPricing = () => {
   return (
     <>
       {/* pricing area start */}
-      <section className="pricing__area-5 pt-5">
+      <section className="pricing__area-5 py-5">
         <div className="container">
-          <div className="pricing__items-5 pb-5">
+          <div className="d-flex gap-2 justify-content-center pb-5">
             {items.map(item => {
               return (
                 <div key={item.id} className="pricing__item-5">
@@ -33,7 +33,7 @@ const FuneralPricing = () => {
                     <h3 className="title-2">
                       <span>R$ {item.value}</span>/ por vida
                     </h3>
-                    <p className="justify__text">{item.description}</p>
+                    <p className="">{item.description}</p>
                     <span className="badge text-dark" style={{backgroundColor: '#d8ff36'}}>SEM CARÊNCIA</span>
                   </div>
                   <div className="pricing__btn-wrapper">
@@ -47,7 +47,7 @@ const FuneralPricing = () => {
             })}
 
           </div>
-          <div className="mt-5 text-white">Adicione Cremação PET por apenas R$14,90 em sua mensalidade, por pet!</div>
+          <div className="mt-5 destaq__gray__text mx-auto">Adicione Cremação PET por apenas R$14,90 em sua mensalidade, por pet!</div>
         </div>
       </section>
       {/* pricing area end */}

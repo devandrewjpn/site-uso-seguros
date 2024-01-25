@@ -25,7 +25,7 @@ const FuneralWhy = () => {
     return (
         <>
             {/* About area start */}
-            <section className="about__area-6 pt-150 pb-150">
+            <section className="about__area-6 py-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-xxl-6 col-xl-6 col-xl-6 col-md-6">
@@ -37,13 +37,13 @@ const FuneralWhy = () => {
                         </div>
                         <div className="col-xxl-6 col-xl-6 col-xl-6 col-md-6">
                             <div className="pt-0 about__content-6">
-                                <h3 className="sec-title underline-2 text-white">
+                                <h3 className="sec-title underline-2 text-white mt-3" style={{fontSize: '2rem'}}>
                                     Por que contratar a Assistência Funerária USO?
                                 </h3>
                                 <div className="row">
                                     {items.map(item => {
                                         return (
-                                            <div key={item.id} class="col-md-6 service__item-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                                            <div key={item.id} class="col-12 service__item-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
                                                 <div class="service__thumb-5 text-start">
                                                     <img width={60} src={item.img} alt="service-icon" />
                                                 </div>
@@ -51,7 +51,7 @@ const FuneralWhy = () => {
                                                     <a href="/viagens">
                                                         <h3 class="service__item-title">{item.title}</h3>
                                                     </a>
-                                                    <p>{item.text}</p>
+                                                    <p className="text-start">{item.text}</p>
                                                 </div>
                                             </div>
                                         )

@@ -49,6 +49,7 @@ const PricingMobile = () => {
                       <small style={{fontSize: '14px'}}>à partir de</small><br />
                       <span>R$ {item.value}</span>/mês
                     </h3>
+                    <strong className="text-white">Saiba mais</strong>
                     </div>
                     <div className="pricing__mobile-btn-wrapper">
                     <Link className="pricing__mobile-btn" to={item.redirect}>

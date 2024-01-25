@@ -1,11 +1,9 @@
-import React from "react";
-
+import React, { useRef } from "react";
+import { Navigation, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-const CheckIcon = () => <img width={40} src="assets/imgs/check_icon.png" alt="" />
-
 const HeroSaude = () => {
-
+    const swiperRef = useRef();
     return (
         <>
             {/* hero area start */}
@@ -13,43 +11,47 @@ const HeroSaude = () => {
                 <Swiper
                     spaceBetween={50}
                     slidesPerView={1}
+                    modules={[Navigation]}
+                    autoplay={{
+                        delay: 3000,
+                        disableOnInteraction: true,
+                    }}
+                    onBeforeInit={(swiper) => {
+                        swiperRef.current = swiper;
+                    }}
                 >
                     <SwiperSlide className="hero__slider_saude_ hero__slider saude__hero">
-                        <div className="container h-100">
-                            {/* <div className="hero__content-5 h-100 d-flex flex-column justify-content-center">
-                                <h2 className="hero__title-5 cxufadeUp2">
-                                USO Saúde: Seu Médico Online, Cuidado<span> Rápido e Confiável</span></h2>
-                                <p className="hero__dis-5 cxufadeUp2 my-4">Na USO, Redefinimos o Conceito de Cuidado com a Saúde: Em parceria com a SULAMÉRICA, criamos soluções inovadoras de emergência e assistência online. Mais do que um simples plano de saúde, oferecemos um conjunto amplo de benefícios e coberturas, projetados para revolucionar seu cuidado com a saúde.</p>
-                            </div> */}
+                        <div className="skll__arrows_bottom d-flex gap-1 align-items-center px-5">
+                            <div
+                                className="skll__carousel_prev cursor"
+                                onClick={() => swiperRef.current?.slidePrev()}
+                            >
+                                <i className="fa-solid fa-chevron-left" />
+                            </div>
+                            <div
+                                className="skll__carousel_next cursor"
+                                onClick={() => swiperRef.current?.slideNext()}
+                            >
+                                <i className="fa-solid fa-chevron-right" />
+                            </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="hero__slider_saude_2 hero__slider saude__hero">
                         <div className="container h-100">
-                            {/* <div className="hero__content-5 h-100 d-flex flex-column justify-content-center">
-                                <ul>
-                                    <li>
-                                        <p className="hero__dis-5 cxufadeUp2">
-                                            <CheckIcon />
-                                            Ideal para quem busca atendimento rápido e eficiente, diretamente na palma da mão.</p>
-                                    </li>
-                                    <li>
-                                        <p className="hero__dis-5 cxufadeUp2">
-                                            <CheckIcon />
-                                            Sem burocracia e com apólice ativada imediatamente</p>
-                                    </li>
-                                    <li>
-                                        <p className="hero__dis-5 cxufadeUp2">
-                                            <CheckIcon />
-                                            Tranquilidade e segurança para você e sua família em todos os momentos.</p>
-                                    </li>
-                                    <li>
-                                        <p className="hero__dis-5 cxufadeUp2">
-                                            <CheckIcon />
-                                            O Serviço Médico na Tela está disponível 24 horas por dia, 365 dias por ano.</p>
-                                    </li>
-                                </ul>
-                                
-                            </div> */}
+                        <div className="skll__arrows_bottom d-flex gap-1 align-items-center px-5">
+                            <div
+                                className="skll__carousel_prev cursor"
+                                onClick={() => swiperRef.current?.slidePrev()}
+                            >
+                                <i className="fa-solid fa-chevron-left" />
+                            </div>
+                            <div
+                                className="skll__carousel_next cursor"
+                                onClick={() => swiperRef.current?.slideNext()}
+                            >
+                                <i className="fa-solid fa-chevron-right" />
+                            </div>
+                        </div>
                         </div>
                     </SwiperSlide>
                 </Swiper>

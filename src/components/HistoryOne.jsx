@@ -4,7 +4,7 @@ const HistoryOne = () => {
   return (
     <>
       {/* history area start */}
-      <section className="history__area-5 pt-5" style={{ background: 'black' }}>
+      <section className="pb-0 history__area-5 pt-5" style={{ background: 'black' }}>
         <div className="container pt-5">
           <div className="row">
             <div className="col-lg-7">
@@ -45,7 +45,7 @@ const HistoryOne = () => {
 
               <div className="newsletter__form-wrapper-5">
                 <a href="/">
-                  <img width={250} height={88} src="https://play.google.com/intl/pt-BR/badges/static/images/badges/pt-br_badge_web_generic.png" alt="" />
+                  <img width={250} src="https://play.google.com/intl/pt-BR/badges/static/images/badges/pt-br_badge_web_generic.png" alt="" />
                 </a>
                 <a href="/">
                   <img width={250} src="https://www.gov.br/pt-br/imagens-de-servicos/apple.png" alt="" />

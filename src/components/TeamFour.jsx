@@ -54,7 +54,7 @@ const TeamFour = () => {
   return (
     <>
       {/* Team area start */}
-      <section className="team__area-5 pt-150 pb-150 swiper">
+      <section className="team__area-5 pt-5 pb-5 swiper">
         <div className="row">
           <div className="col-lg-4">
             <div className="team__left-5" data-aos="fade-up">
@@ -126,6 +126,20 @@ const TeamFour = () => {
                     )
                   })}
                 </Swiper>
+                <div className="d-flex gap-1 align-items-center mt-5 mobile_arrow_mobile">
+                  <div
+                    className="skll__carousel_prev cursor"
+                    onClick={() => swiperRef.current?.slidePrev()}
+                  >
+                    <i className="fa-solid fa-chevron-left" />
+                  </div>
+                  <div
+                    className="skll__carousel_next cursor"
+                    onClick={() => swiperRef.current?.slideNext()}
+                  >
+                    <i className="fa-solid fa-chevron-right" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>

@@ -4,7 +4,7 @@ const AppSection = () => {
   return (
     <>
       {/* history area start */}
-      <section className="history__area-5 pt-5" style={{ background: 'black' }}>
+      <section className="history__area-5 py-5" style={{ background: 'black' }}>
         <div className="container pt-5">
           <div className="row">
             <div className="col-lg-6">
@@ -14,7 +14,7 @@ const AppSection = () => {
                 data-aos-delay={300}
               >
                 <h3 className="section-title-5 heading-animation">
-                Mais de 702 Clínicas credenciadas em todo Brasil
+                Mais de <span className="text__destaq">702 Clínicas</span> credenciadas em todo Brasil
                 </h3>
               </div>
               <div className="history__content-5">

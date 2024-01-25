@@ -113,7 +113,7 @@ const RemoveIcon = () => <img width={25} src="assets/imgs/x_icon.png" alt="" />
 const PetTable = () => {
     return (
 
-        <div id="price_table" className="container py-5">
+        <div id="price_table" className="container py-4">
             <div className="about__content-6">
                 <h3 className="sec-title underline-2 text-white">
                     Conheça nossos planos

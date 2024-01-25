@@ -60,7 +60,7 @@ const ServiceThree = () => {
                 }}
                 slidesPerView={3}
                 breakpoints={{
-                  400: {
+                  300: {
                     slidesPerView: 1,
                   },
                   1024: {
@@ -81,7 +81,7 @@ const ServiceThree = () => {
                         <Link to={service.href}>
                           <div className="service__title-3">{service.title}</div>
                         </Link>
-                        <p className="justify__text">{service.text}</p>
+                        <p className="">{service.text}</p>
                         <Link
                           className="db-btn-border btn-rollover color-1"
                           to={service.href}
@@ -92,7 +92,7 @@ const ServiceThree = () => {
                     </SwiperSlide>
                   )
                 })}
-                <div className="d-flex gap-1 align-items-center mt-5">
+                <div className="d-flex gap-1 align-items-center mt-5 mobile_arrow">
                   <div
                     className="skll__carousel_prev cursor"
                     onClick={() => swiperRef.current?.slidePrev()}

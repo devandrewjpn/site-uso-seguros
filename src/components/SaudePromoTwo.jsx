@@ -4,7 +4,7 @@ const SaudePromoTwo = () => {
     return (
         <>
             {/* About area start */}
-            <section className="about__area-6 pt-50 pb-150">
+            <section className="about__area-6 pt-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-xxl-6 col-xl-6 col-xl-6 col-md-6">

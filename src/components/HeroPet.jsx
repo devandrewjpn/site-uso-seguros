@@ -15,9 +15,9 @@ const HeroViagens = () => {
                     <SwiperSlide className="hero__slider pet__hero hero__slider_cover hero__slider__viagens">
                         <div className="container h-100">
                             <div className="row h-100">
-                                <div className="col-md-8">
+                                <div className="col-md-10">
                                     <div className="hero__content-5 h-100 d-flex flex-column justify-content-center">
-                                        <h2 className="hero__title-5 cxufadeUp2" style={{fontSize: '50px'}}>
+                                        <h2 className="mobile__text hero__title-5 cxufadeUp2">
                                         USO PET - Assistência completa para seu companheiro de quatro patas</h2>
                                         <p className="hero__dis-5 cxufadeUp2 my-4" style={{fontSize: '20px'}}>
                                         Sabemos que cada animal de estimação é especial e merece cuidado e proteção sob medida. Por isso, oferecemos planos flexíveis e abrangentes para manter seu amigo peludo seguro em todos os momentos.

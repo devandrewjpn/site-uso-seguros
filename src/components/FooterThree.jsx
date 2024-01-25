@@ -5,7 +5,7 @@ const FooterThree = () => {
   return (
     <>
       {/* Footer area start */}
-      <footer className="footer__area-3">
+      <footer className="pt-0 footer__area-3">
         <div className="container">
           <div className="footer__widgets-3">
             <div className="row">

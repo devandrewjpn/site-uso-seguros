@@ -60,8 +60,8 @@ const Why = ({title,questions}) => {
                             </div>
                           </div>
                           <div className="p-animation">
-                            <p className="justify__text fw__300"><strong className="fw__600"><span style={{color:'#d8ff36',textTransform: 'uppercase'}}>Mito: </span></strong>{client.myth}</p>
-                            <p className="justify__text fw__300"><strong className="fw__600"><span style={{color:'#d8ff36',textTransform: 'uppercase'}}>Realidade: </span></strong>{client.true}</p>
+                            <p className="fw__300"><strong className="fw__600"><span style={{color:'#d8ff36',textTransform: 'uppercase'}}>Mito: </span></strong>{client.myth}</p>
+                            <p className="fw__300"><strong className="fw__600"><span style={{color:'#d8ff36',textTransform: 'uppercase'}}>Realidade: </span></strong>{client.true}</p>
                           </div>
                         </div>
                       </div>

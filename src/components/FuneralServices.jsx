@@ -12,51 +12,51 @@ const services = [
   },
   {
     id: 2,
-    icon: 'assets/imgs/translado.png',
-    title: 'Traslado Nacional',
-    text: 'Transporte do falecido em todo território nacional (limite de 3.000 km), incluindo dois trechos (local do óbito para funerária e funerária para velório/sepultamento).',
-  },
-  {
-    id: 3,
     icon: 'assets/imgs/urna.png',
     title: 'Urna Padrão',
     text: 'Personalizada em tamanho, com visor, verniz e acabamento interno em renda.',
   },
   {
-    id: 4,
+    id: 3,
     icon: 'assets/imgs/ornamentacao.png',
     title: 'Ornamentação Interna',
     text: 'Decoração cuidadosa e respeitosa da urna.',
   },
   {
-    id: 5,
+    id: 4,
     icon: 'assets/imgs/tanatopraxia.png',
     title: 'Tanatopraxia',
     text: 'Conservação e preparação do corpo, realizada por técnicos especializados.',
   },
   {
-    id: 6,
+    id: 5,
     icon: 'assets/imgs/veu.png',
     title: 'Véu',
     text: 'Incluso para cobertura do falecido.',
   },
   {
-    id: 7,
+    id: 6,
     icon: 'assets/imgs/coroa.png',
     title: 'Coroa de Flores',
     text: 'Escolha entre flores naturais ou permanentes.',
   },
   {
-    id: 8,
+    id: 7,
     icon: 'assets/imgs/lista_verde.png',
     title: 'Lista de Homenagens',
     text: 'Espaço para mensagens de recordação e carinho.',
   },
   {
-    id: 9,
+    id: 8,
     icon: 'assets/imgs/ceremonial.png',
     title: 'Cerimonial Personalizado',
     text: 'Organização conforme disponibilidade local e agendamentos.',
+  },
+  {
+    id: 9,
+    icon: 'assets/imgs/translado.png',
+    title: 'Traslado Nacional',
+    text: 'Transporte do falecido em todo território nacional (limite de 3.000 km), incluindo dois trechos (local do óbito para funerária e funerária para velório/sepultamento).',
   },
   {
     id: 10,
@@ -89,7 +89,7 @@ const FuneralServices = () => {
   return (
     <>
       {/* Service area start */}
-      <section className="service__area-3 pt-150 pb-150" style={{ background: 'black' }}>
+      <section className="service__area-3 py-5" style={{ background: 'black' }}>
         <div className="container">
           <div className="row">
             <div className="">
@@ -103,6 +103,9 @@ const FuneralServices = () => {
                 breakpoints={{
                   400: {
                     slidesPerView: 1,
+                    navigation: {
+                      enabled: true
+                    },
                   },
                   1024: {
                     slidesPerView: 4,
@@ -113,7 +116,7 @@ const FuneralServices = () => {
                   return (
                     <SwiperSlide
                       key={service.id}
-                      className="service__item-3"
+                      className="service__item-3 text-center"
                     >
                       <div className="icon">
                         <img width={80} src={service.icon} alt="Service Icon" />
@@ -122,12 +125,12 @@ const FuneralServices = () => {
                         <Link to={service.href}>
                           <div className="service__title-3">{service.title}</div>
                         </Link>
-                        <p className="justify__text">{service.text}</p>
+                        <p className="text-center">{service.text}</p>
                       </div>
                     </SwiperSlide>
                   )
                 })}
-                <div className="d-flex gap-1 align-items-center">
+                <div className="d-flex gap-1 align-items-center justify-content-center" style={{marginTop: '-2rem'}}>
                   <div
                     className="skll__carousel_prev cursor"
                     onClick={() => swiperRef.current?.slidePrev()}

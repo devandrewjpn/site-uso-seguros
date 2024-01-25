@@ -28,7 +28,7 @@ const WorkProcessTwo = () => {
   return (
     <>
       {/* Work Process area start */}
-      <section className="process__area-3 pt-150 pb-150">
+      <section className="process__area-3 pt-0 pb-150">
         <div className="container">
           <div className="row">
             <div className="col-xxl-12">

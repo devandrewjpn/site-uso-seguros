@@ -51,6 +51,7 @@
 
 .viagens__hero {
   background-image: url(../public/assets/imgs/hero_viagens.jpg);
+  height: 80vh!important;
 }
 .saude__hero {
   background-image: url(../public/assets/imgs/hero_saude.jpg);
@@ -72,8 +73,56 @@
   .hero__two_columns_icons {
     grid-template-columns: 1fr!important;
   }
+  .newsletter__form-wrapper-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .newsletter__form-wrapper-5 a:first-child {
+    width: 230px;
+    height: auto!important;
+  }
+  .newsletter__form-wrapper-5 a:nth-child(2) {
+    height: auto;
+  }
+  .digibold-section-wrapper-5 {
+    margin-bottom: 10px;
+  }
+  .mobile_arrow {
+    margin-top: 10px!important;
+  }
+  .mobile_arrow_mobile {
+    margin-top: 0px!important;
+  }
+  .mobile_arrow_mobile .cursor {
+    background: #000;
+  }
+  .mobile_arrow_mobile .cursor:hover {
+    background: var(--primary);
+  }
+  .team__area-5 .team-active-5 .swiper-wrapper {
+    padding-bottom: 10px;
+  }
+  .testimonial-five-active .swiper-wrapper {
+    padding-bottom: 10px;
+  }
 }
-
+.text__destaq {
+  background: var(--primary);
+  color: var(--secondary);
+}
+@media (min-width:600px) {
+  .mobile_arrow_mobile {
+    display: none!important;
+  }
+}
+.destaq__gray__text {
+  background-color: #000;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+}
 .hero__slider_saude_ {
   background: url(../public/assets/imgs/usosaude_banner_1.png);
 }
@@ -137,17 +186,24 @@
   color: var(--secondary);
 }
 .travel__form_button {
-  background: var(--primary);
+  background: #000;
   border-radius: 8px;
   color: var(--white);
   border: 0;
   height: 45px;
   font-size: 1.2em;
   padding: 0 1rem;
+  transition: .6s;
 }
 .travel__form_button:hover {
+  background: var(--primary);
+  color: #000;
   opacity: 0.7;
-  transition: .2s;
+}
+@media (max-width: 1400px) {
+  .mobile__text {
+    font-size: 2.525rem;
+  }
 }
 @media (max-width:600px) {
   .travel__form {
@@ -237,9 +293,9 @@
   text-align: start;
 }
 .default__promo button {
-  background: var(--primary);
+  background: var(--secondary);
   opacity: 0.7;
-  color: var(--secondary);
+  color: var(--white);
   border: 0;
   border-radius: 8px;
   padding: 1rem 1.25rem;
@@ -248,12 +304,14 @@
   text-transform: uppercase;
   font-size: 1.15rem;
 
-  transition: .5s;
+  transition: .8s;
 
   display: block;
 }
 .default__promo button:hover {
   opacity: 1;
+  background: var(--primary);
+  color: #000!important;
   cursor: pointer;
 }
 .default__promo::after {

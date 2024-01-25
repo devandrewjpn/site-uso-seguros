@@ -49,6 +49,7 @@ const PricingOne = () => {
                       <span>R$ {item.value}</span>/mês
                     </h3>
                     <p className="justify__text">{item.description}</p>
+                    <strong className="text-white">Saiba mais</strong>
                   </div>
                   <div className="pricing__btn-wrapper">
                     <Link className="pricing__btn" to={item.redirect}>

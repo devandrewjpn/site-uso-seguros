@@ -44,7 +44,7 @@ const ServiceFive = () => {
                     <Link to="#">
                       <h3 className="service__item-title">{item.title}</h3>
                     </Link>
-                    <p>{item.description}</p>
+                    <p className="text-center">{item.description}</p>
                   </div>
                 </div>
               )
