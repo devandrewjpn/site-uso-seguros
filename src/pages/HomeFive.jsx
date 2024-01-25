@@ -3,7 +3,6 @@ import Preloader from "../elements/Preloader";
 import HeaderThree from "../components/HeaderThree";
 import HeroFive from "../components/HeroFive";
 import HistoryOne from "../components/HistoryOne";
-import NewsletterTwo from "../components/NewsletterTwo";
 import PricingOne from "../components/PricingOne";
 import TestimonialTwo from "../components/TestimonialTwo";
 import FooterThree from "../components/FooterThree";
@@ -20,7 +19,6 @@ const HomeFive = () => {
           <PricingOne />
           <PricingMobile />
           <HistoryOne />
-          {/* <NewsletterTwo /> */}
           <ServiceThree />
           <TestimonialTwo />
         </main>

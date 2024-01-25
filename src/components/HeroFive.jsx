@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { Navigation, Autoplay } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 const HeroFive = () => {
   const swiperRef = useRef();

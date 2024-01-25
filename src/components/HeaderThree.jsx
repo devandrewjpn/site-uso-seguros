@@ -81,7 +81,7 @@ const HeaderThree = () => {
                     <Link to="/ajuda">Ajuda</Link>
                   </li>
                   <li>
-                    <a target="_blank" href="https://usoseguros.com.br/dev/cliente">Meu perfil</a>
+                    <a target="_blank" href="https://usoseguros.com.br/dev/cliente" rel="noreferrer">Meu perfil</a>
                   </li>
                 </ul>
               </nav>

@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { Navigation } from "swiper/modules";
-import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const clients = [
   {
@@ -28,7 +28,6 @@ const clients = [
 
 const TestimonialTwo = () => {
   const swiperRef = useRef();
-  const swiper = useSwiper();
   return (
     <>
       {/* testimonial area start */}

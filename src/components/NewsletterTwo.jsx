@@ -16,10 +16,10 @@ const NewsletterTwo = () => {
             </div>
             <div className="col-lg-6">
               <div className="newsletter__form-wrapper-5">
-                <a href="">
+                <a href="/"  rel="noreferrer">
                   <img width={250} src="https://play.google.com/intl/pt-BR/badges/static/images/badges/pt-br_badge_web_generic.png" alt="" />
                 </a>
-                <a href="">
+                <a href="/"  rel="noreferrer">
                   <img width={250} src="https://www.gov.br/pt-br/imagens-de-servicos/apple.png" alt="" />
                 </a>
               </div>

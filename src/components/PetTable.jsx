@@ -108,7 +108,7 @@ const items = [
     },
 ]
 
-const RemoveIcon = () => <img width={25} src="assets/imgs/x_icon.png" alt="" />
+// const RemoveIcon = () => <img width={25} src="assets/imgs/x_icon.png" alt="" />
 
 const PetTable = () => {
     return (
