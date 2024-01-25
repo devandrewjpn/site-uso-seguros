@@ -58,7 +58,7 @@ const HeaderThree = () => {
                       <Link to="/pet">USO PET</Link>
                     </li>
                     <li>
-                      <Link to="/funeral">USO Funeral</Link>
+                      <Link to="/funeral">USO Funerária</Link>
                     </li>
                     <li>
                       <Link to="/saude">USO Saúde</Link>
