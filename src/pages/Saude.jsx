@@ -6,6 +6,7 @@ import HeroSaude from "../components/HeroSaude";
 import SaudePricing from "../components/SaudePricing";
 import SaudePromoOne from "../components/SaudePromoOne";
 import SaudePromoTwo from "../components/SaudePromoTwo";
+import TestimonialTwo from "../components/TestimonialTwo";
 
 const Saude = () => {
   return (
@@ -17,6 +18,7 @@ const Saude = () => {
           <SaudePricing />
           <SaudePromoOne />
           <SaudePromoTwo />
+          <TestimonialTwo />
         </main>
         <FooterThree />
       </Suspense>
