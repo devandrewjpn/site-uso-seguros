@@ -32,7 +32,7 @@ const FuneralPricingMobile = () => {
                                         <div>
                                             <h2 className="title">{item.title}</h2>
                                             <h3 className="title-2">
-                                                <small style={{ fontSize: '14px' }}>à partir de</small><br />
+                                                <small style={{ fontSize: '14px' }}>a partir de</small><br />
                                                 <span>R$ {item.value}</span>/ por vida
                                             </h3>
                                             <span className="badge text-dark" style={{ backgroundColor: '#d8ff36' }}>SEM CARÊNCIA</span>

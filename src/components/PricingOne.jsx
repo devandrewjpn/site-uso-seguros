@@ -45,7 +45,7 @@ const PricingOne = () => {
                   <div className="pricing__header-5 ">
                     <h2 className="title">{item.title}</h2>
                     <h3 className="title-2">
-                      <small style={{fontSize: '14px'}}>à partir de</small><br />
+                      <small style={{fontSize: '14px'}}>a partir de</small><br />
                       <span>R$ {item.value}</span>/mês
                     </h3>
                     <p className="justify__text">{item.description}</p>

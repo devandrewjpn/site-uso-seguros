@@ -46,7 +46,7 @@ const PricingMobile = () => {
                     <div>
                     <h2 className="title">{item.title}</h2>
                     <h3 className="title-2">
-                      <small style={{fontSize: '14px'}}>à partir de</small><br />
+                      <small style={{fontSize: '14px'}}>a partir de</small><br />
                       <span>R$ {item.value}</span>/mês
                     </h3>
                     <strong className="text-white">Saiba mais</strong>
