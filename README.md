@@ -1,3 +1,61 @@
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a name="readme-top"></a>
+-->
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/devandrewjpn/site-uso-seguros">
+    <img src="public/favicon.svg" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Multiple Secures React WebSite</h3>
+
+  <p align="center">
+    An full dark theme website build with ReactJS for a Secure Company
+    <br />
+    <a href="https://usoseguro.com.br/novo/">View Demo</a>
+    ·
+    <a href="mailto:yuutoandrew.jpn@gmail.com">Report Bug</a>
+  </p>
+</div>
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://devandrew.com.br)
+
+
+This was a project carried out for an insurance company as their first website. They came to me looking for a beautiful layout and good performance. I chose reactjs and animate on scroll.
+
+
+### Built With
+
+* [![React][React.js]][React-url]
+
+
+<!-- CONTACT -->
+## Contact
+
+Andrew Augusto - [@Linkedin](https://www.linkedin.com/in/andrew-oliveira-734b191b1/) - Andrew Oliveira
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Some plus libs that i use in!
+
+* [Swiper JS](https://swiperjs.com/react)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[product-screenshot]: public/print_home.png
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
