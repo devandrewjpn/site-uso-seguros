@@ -7,17 +7,17 @@ const services = [
   {
     id: 1,
     icon: 'assets/imgs/Funeraria.png',
-    title: 'Assistência Funerária',
+    title: 'Assistência Funeral',
     text: 'Com a USO, Enfrente Momentos Difíceis com Dignidade e Respeito - Assistência Funerária que Cuida de Cada Detalhe.',
     href: '/funeral'
   },
-  {
-    id: 2,
-    icon: 'assets/imgs/Pet.png',
-    title: 'Assistência Pet',
-    text: 'USO Pet: Proteção e Cuidado para seu Melhor Amigo - Assistência Completa para a Saúde e Bem-estar do seu Animal de Estimação.',
-    href: '/pet'
-  },
+  // {
+  //   id: 2,
+  //   icon: 'assets/imgs/Pet.png',
+  //   title: 'Assistência Pet',
+  //   text: 'USO Pet: Proteção e Cuidado para seu Melhor Amigo - Assistência Completa para a Saúde e Bem-estar do seu Animal de Estimação.',
+  //   href: '/pet'
+  // },
   {
     id: 3,
     icon: 'assets/imgs/Saúde.png',

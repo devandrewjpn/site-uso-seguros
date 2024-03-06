@@ -1006,7 +1006,7 @@ HOME FIVE TESTIMONIAL
   top: 70px;
   z-index: 3;
   @media #{$sm} {
-    display: none;
+    top: 0;
   }
   &:hover {
     background: var(--primary);

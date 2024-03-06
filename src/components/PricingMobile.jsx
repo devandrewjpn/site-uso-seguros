@@ -18,7 +18,7 @@ const items = [
   },
   {
     id: 3,
-    title: 'USO Funerária',
+    title: 'USO Funeral',
     value: 13,
     redirect: '/funeral',
     description: "Conheça todas as opções"

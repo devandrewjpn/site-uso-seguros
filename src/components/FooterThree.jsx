@@ -49,9 +49,9 @@ const FooterThree = () => {
                     <li>
                       <Link to="/viagens">USO Viagem</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to="/pet">USO PET</Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link to="/funeral">USO Funeral</Link>
                     </li>
@@ -73,8 +73,7 @@ const FooterThree = () => {
                         <i className="fa-solid fa-phone" />
                       </span>
                       <div>
-                        <Link to="tel:+88014420420">(31) 1234 1234</Link>
-                        <Link to="tel:+88014420420">(31) 1234 1234</Link>
+                        <Link to="tel:+88014420420"> (31) 2118-0092</Link>
                       </div>
                     </li>
                     <li>
@@ -84,9 +83,6 @@ const FooterThree = () => {
                       <div>
                         <Link to="mailto:contato@usoseguros.com.br">
                           contato@usoseguros.com.br
-                        </Link>
-                        <Link to="mailto:suporte@usoseguros.com.br">
-                          suporte@usoseguros.com.br
                         </Link>
                       </div>
                     </li>

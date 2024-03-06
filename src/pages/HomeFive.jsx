@@ -14,14 +14,14 @@ const HomeFive = () => {
     <>
       <Suspense fallback={<Preloader />}>
         <HeaderThree />
-        <main className="digibold-five">
-          <HeroFive />
-          <PricingOne />
-          <PricingMobile />
-          <HistoryOne />
-          <ServiceThree />
-          <TestimonialTwo />
-        </main>
+          <main className="digibold-five">
+            <HeroFive />
+            <PricingOne />
+            <PricingMobile />
+            <HistoryOne />
+            <ServiceThree />
+            <TestimonialTwo />
+          </main>
         <FooterThree />
       </Suspense>
     </>

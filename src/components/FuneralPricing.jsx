@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useModal } from "./FuneralModalContext";
 
 const items = [
   {
@@ -19,6 +20,8 @@ const items = [
 ]
 
 const FuneralPricing = () => {
+  const { openModal } = useModal();
+
   return (
     <>
       {/* pricing area start */}
@@ -37,9 +40,9 @@ const FuneralPricing = () => {
                     <span className="badge text-dark" style={{backgroundColor: '#d8ff36'}}>SEM CARÊNCIA</span>
                   </div>
                   <div className="pricing__btn-wrapper">
-                    <Link className="pricing__btn" to={item.redirect}>
+                    <button className="pricing__btn" type="button" onClick={openModal}>
                       <i className="fa-solid fa-arrow-right" />
-                    </Link>
+                    </button>
                   </div>
                   
                 </div>

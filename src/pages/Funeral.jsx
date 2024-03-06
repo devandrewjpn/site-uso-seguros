@@ -10,21 +10,26 @@ import { FuneralWhyQuestions } from "../data/funeral_why_questions";
 import FuneralPromoPhrase from "../components/FuneralPromoPhrase";
 import FuneralPricingMobile from "../components/FuneralPricingMobile";
 import FuneralServices from "../components/FuneralServices";
+import { ModalProvider } from "../components/FuneralModalContext";
+import FuneralModal from "../components/FuneralModal";
 
 const Funeral = () => {
   return (
     <>
       <Suspense fallback={<Preloader />}>
         <HeaderThree />
-        <main className="digibold-five">
-          <HeroFuneral />
-          <FuneralPricing />
-          <FuneralPricingMobile />
-          <FuneralServices />
-          <FuneralWhy />
-          <Why title='Desvendando Mitos Funerários: Verdades que Você Deveria Conhecer' questions={FuneralWhyQuestions} />
-          <FuneralPromoPhrase />
-        </main>
+        <ModalProvider>
+          <main className="digibold-five">
+            <HeroFuneral />
+            <FuneralPricing />
+            <FuneralPricingMobile />
+            <FuneralServices />
+            <FuneralWhy />
+            <Why title='Desvendando Mitos Funerários: Verdades que Você Deveria Conhecer' questions={FuneralWhyQuestions} />
+            <FuneralPromoPhrase />
+            <FuneralModal />
+          </main>
+        </ModalProvider>
         <FooterThree />
       </Suspense>
     </>

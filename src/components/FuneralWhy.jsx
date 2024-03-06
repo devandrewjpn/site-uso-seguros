@@ -38,7 +38,7 @@ const FuneralWhy = () => {
                         <div className="col-xxl-6 col-xl-6 col-xl-6 col-md-6">
                             <div className="pt-0 about__content-6">
                                 <h3 className="sec-title underline-2 text-white mt-3" style={{fontSize: '2rem'}}>
-                                    Por que contratar a Assistência Funerária USO?
+                                    Por que contratar a Assistência Funeral USO?
                                 </h3>
                                 <div className="row">
                                     {items.map(item => {

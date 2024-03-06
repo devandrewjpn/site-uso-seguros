@@ -54,11 +54,11 @@ const HeaderThree = () => {
                     <li>
                       <Link to="/viagens">USO Viagem</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to="/pet">USO PET</Link>
-                    </li>
+                    </li> */}
                     <li>
-                      <Link to="/funeral">USO Funerária</Link>
+                      <Link to="/funeral">USO Funeral</Link>
                     </li>
                     <li>
                       <Link to="/saude">USO Saúde</Link>
@@ -116,11 +116,11 @@ const HeaderThree = () => {
                 <li>
                   <Link to="/viagens">USO Viagem</Link>{" "}
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/pet">USO PET</Link>{" "}
-                </li>
+                </li> */}
                 <li>
-                  <Link to="/funeral">USO Funerária</Link>{" "}
+                  <Link to="/funeral">USO Funeral</Link>{" "}
                 </li>
                 <li>
                   <Link to="/saude">USO Saúde</Link>{" "}
