@@ -6,7 +6,7 @@ const items = [
         id: 1,
         title: 'USO SAÚDE I - Proteção Essencial',
         value: 30,
-        redirect: '/saude',
+        redirect: 'https://usoseguros.plataformadeseguros.com.br/',
         description: "O básico não precisa ser básico",
         label: "Médico na Tela para até 4 membros da família",
         covers: [
@@ -38,7 +38,7 @@ const items = [
         id: 2,
         title: 'USO SAÚDE II - Proteção Ampliada',
         value: 50,
-        redirect: '/saude',
+        redirect: 'https://usoseguros.plataformadeseguros.com.br/',
         description: "O dobro de cobertura",
         label: "Médico na Tela para até 4 membros da família",
         covers: [
@@ -70,7 +70,7 @@ const items = [
         id: 3,
         title: 'USO SAÚDE III - Proteção Completa',
         value: 70,
-        redirect: '/saude',
+        redirect: 'https://usoseguros.plataformadeseguros.com.br/',
         description: "Mais cobertura, mais benefícios e a sorte do seu lado",
         label: "Médico na Tela para até 4 membros da família",
         covers: [
@@ -160,7 +160,7 @@ const SaudePricing = () => {
                                         )}
                                     </div>
                                     <div className="pricing__btn-wrapper">
-                                        <Link className="pricing__btn" to={item.redirect}>
+                                        <Link className="pricing__btn" to={item.redirect} target="_blank">
                                             <i className="fa-solid fa-arrow-right" />
                                         </Link>
                                     </div>

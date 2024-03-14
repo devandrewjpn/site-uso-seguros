@@ -46,30 +46,30 @@ const services = [
     title: 'Lista de Homenagens',
     text: 'Espaço para mensagens de recordação e carinho.',
   },
-  {
-    id: 8,
-    icon: 'assets/imgs/ceremonial.png',
-    title: 'Cerimonial Personalizado',
-    text: 'Organização conforme disponibilidade local e agendamentos.',
-  },
+  // {
+  //   id: 8,
+  //   icon: 'assets/imgs/ceremonial.png',
+  //   title: 'Cerimonial Personalizado',
+  //   text: 'Organização conforme disponibilidade local e agendamentos.',
+  // },
   {
     id: 9,
     icon: 'assets/imgs/translado.png',
     title: 'Traslado Nacional',
     text: 'Transporte do falecido em todo território nacional (limite de 3.000 km), incluindo dois trechos (local do óbito para funerária e funerária para velório/sepultamento).',
   },
-  {
-    id: 10,
-    icon: 'assets/imgs/lembranca.png',
-    title: 'Lembrancinhas de Luto',
-    text: 'Pequena recordação para os presentes.',
-  },
-  {
-    id: 11,
-    icon: 'assets/imgs/cremacao.png',
-    title: 'Opção de Cremação',
-    text: 'Disponível com possibilidade de ajuste nos valores do plano.',
-  },
+  // {
+  //   id: 10,
+  //   icon: 'assets/imgs/lembranca.png',
+  //   title: 'Lembrancinhas de Luto',
+  //   text: 'Pequena recordação para os presentes.',
+  // },
+  // {
+  //   id: 11,
+  //   icon: 'assets/imgs/cremacao.png',
+  //   title: 'Opção de Cremação',
+  //   text: 'Disponível com possibilidade de ajuste nos valores do plano.',
+  // },
   {
     id: 12,
     icon: 'assets/imgs/taxa_de_cemiterio.png',

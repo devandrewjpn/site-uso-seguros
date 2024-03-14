@@ -21,17 +21,17 @@ const FooterThree = () => {
                   <div className="footer__social-3">
                     <ul>
                       <li>
-                        <Link to="#">
+                        <Link to="https://www.facebook.com/profile.php?id=61555764308346" target="_blank">
                           <i className="fa-brands fa-facebook-f" />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="https://www.tiktok.com/@usoseguros" target="_blank">
                           <i className="fa-brands fa-tiktok" />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="https://www.instagram.com/usoseguros/" target="_blank">
                           <i className="fa-brands fa-instagram" />
                         </Link>
                       </li>
@@ -44,9 +44,6 @@ const FooterThree = () => {
                   <h2 className="footer__title">Links</h2>
                   <ul>
                     <li>
-                      <Link to="/ajuda">Fale Conosco</Link>
-                    </li>
-                    <li>
                       <Link to="/viagens">USO Viagem</Link>
                     </li>
                     {/* <li>
@@ -58,9 +55,9 @@ const FooterThree = () => {
                     <li>
                       <Link to="/saude">USO Saúde</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to="/ajuda">FAQ</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

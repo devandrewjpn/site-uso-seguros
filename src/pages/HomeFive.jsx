@@ -20,7 +20,7 @@ const HomeFive = () => {
             <PricingMobile />
             <HistoryOne />
             <ServiceThree />
-            <TestimonialTwo />
+            {/* <TestimonialTwo /> */}
           </main>
         <FooterThree />
       </Suspense>

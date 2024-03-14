@@ -33,7 +33,7 @@ const AboutTwo = () => {
                   clique de distância – onde quer que você esteja.
 
                 </p>
-                <Link className="db-btn-arrow text-white" to="#">
+                <Link className="db-btn-arrow text-white" to="https://usoseguros.primesecure.com.br/" target="_blank">
                   Cotar agora <i className="fa-solid fa-arrow-right" />
                 </Link>
               </div>

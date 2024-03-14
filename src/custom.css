@@ -235,6 +235,8 @@ button[disabled], button:disabled {
   color: var(--secondary);
 }
 .travel__form_button {
+  display:flex;
+  align-items:center;
   background: #000;
   border-radius: 8px;
   color: var(--white);

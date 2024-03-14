@@ -19,12 +19,13 @@ const HeroViagens = () => {
                                 <div className="hero__content-5 h-100 d-flex flex-column justify-content-center">
                                 <h4 className="mobile__text hero__title-5 cxufadeUp2" style={{fontSize: '3.125rem'}}>
                                     USO Viagem: Sua jornada, nossa missão</h4>
-                                <div className="cxufadeUp2">
-                                    <TravelForm />
-                                </div>
+                                
                                 <p className="text-white mt-4 cxufadeUp2" style={{fontSize: '1.125rem'}}>Relaxe e aproveite cada momento, nós cuidamos dos detalhes para que sua única
                                     preocupação seja viver ao máximo. Sua jornada merece a melhor proteção, sua
                                     história merece a USO!</p>
+                                    <div className="cxufadeUp2">
+                                    <TravelForm />
+                                </div>  
                             </div>
                                 </div>
                             </div>

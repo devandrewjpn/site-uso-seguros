@@ -77,9 +77,26 @@ const HeaderThree = () => {
             <div className="header__menu-3">
               <nav className="main-menu">
                 <ul>
-                  <li>
-                    <Link to="/ajuda">Ajuda</Link>
+                  <li className="has-dropdown">
+                    <Link to="#">Ajuda</Link>
+                    <ul className="main-dropdown">
+                      <li>
+                        <Link to="/ajuda-viagem">USO Viagem</Link>
+                      </li>
+                      {/* <li>
+                        <Link to="/pet">USO PET</Link>
+                      </li> */}
+                      <li>
+                        <Link to="/ajuda-funeral">USO Funeral</Link>
+                      </li>
+                      <li>
+                        <Link to="/ajuda-saude">USO Saúde</Link>
+                      </li>
+                    </ul>
                   </li>
+                  {/* <li>
+                    <Link to="/ajuda">Ajuda</Link>
+                  </li> */}
                   <li>
                     <a target="_blank" href="https://usoseguros.com.br/dev/cliente" rel="noreferrer">Meu perfil</a>
                   </li>
@@ -150,17 +167,17 @@ const HeaderThree = () => {
             <div className="footer__social-3">
               <ul>
                 <li>
-                  <Link to="#">
+                  <Link to="https://www.facebook.com/profile.php?id=61555764308346" target="_blank">
                     <i className="fa-brands fa-facebook-f" />
                   </Link>
                 </li>
                 <li>
-                  <Link to="#">
+                  <Link to="https://www.tiktok.com/@usoseguros" target="_blank">
                     <i className="fa-brands fa-tiktok" />
                   </Link>
                 </li>
                 <li>
-                  <Link to="#">
+                  <Link to="https://www.instagram.com/usoseguros/" target="_blank">
                     <i className="fa-brands fa-instagram" />
                   </Link>
                 </li>

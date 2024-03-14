@@ -11,6 +11,9 @@ import Saude from "./pages/Saude";
 import Help from "./pages/Help";
 import LateralSocials from "./components/LateralSocials";
 import { ToastContainer } from 'react-toastify';
+import HelpViagem from "./pages/Help_Viagem";
+import HelpFuneral from "./pages/Help_Funeral";
+import HelpSaude from "./pages/Help_Saude";
 
 function App() {
   useEffect(() => {
@@ -33,7 +36,9 @@ function App() {
         {/* <Route exact path="/pet" element={<Pet />} /> */}
         <Route exact path="/funeral" element={<Funeral />} />
         <Route exact path="/saude" element={<Saude />} />
-        <Route exact path="/ajuda" element={<Help />} />
+        <Route exact path="/ajuda-viagem" element={<HelpViagem />} />
+        <Route exact path="/ajuda-funeral" element={<HelpFuneral />} />
+        <Route exact path="/ajuda-saude" element={<HelpSaude />} />
       </Routes>
       <ScrollToTop smooth color="#22F55D" />
     </BrowserRouter>

@@ -5,22 +5,29 @@ import { useModal } from "./FuneralModalContext";
 const items = [
   {
     id: 1,
-    title: 'Plano básico',
-    value: '7,50',
+    title: 'Plano PAX 1',
+    value: '19,90',
+    plan: 1,
     redirect: '/',
-    description: "Cobertura para acidente de trânsito, Inclui cremação"
+    description: "Cobertura para morte por acidente de trânsito, Inclui cremação"
   },
   {
     id: 2,
-    title: 'Plano completo',
-    value: '8,50',
+    title: 'Plano PAX 2',
+    value: '29,90',
+    plan: 2,
     redirect: '/',
     description: "Cobertura para qualquer causa morte, Inclui cremação"
   }
 ]
 
 const FuneralPricing = () => {
-  const { openModal } = useModal();
+  const { openModal, updatePlan } = useModal();
+
+  const handleButtonClick = (selected_plan) => {
+    updatePlan(selected_plan);
+    openModal();
+  };
 
   return (
     <>
@@ -40,7 +47,7 @@ const FuneralPricing = () => {
                     <span className="badge text-dark" style={{backgroundColor: '#d8ff36'}}>SEM CARÊNCIA</span>
                   </div>
                   <div className="pricing__btn-wrapper">
-                    <button className="pricing__btn" type="button" onClick={openModal}>
+                    <button className="pricing__btn" type="button" onClick={() => handleButtonClick(item.plan)}>
                       <i className="fa-solid fa-arrow-right" />
                     </button>
                   </div>
@@ -50,7 +57,8 @@ const FuneralPricing = () => {
             })}
 
           </div>
-          <div className="mt-5 destaq__gray__text mx-auto">Adicione Cremação PET por apenas R$14,90 em sua mensalidade, por pet!</div>
+          {/* <div className="mt-5 destaq__gray__text mx-auto">Adicione Cremação PET por apenas R$14,90 em sua mensalidade, por pet!</div> */}
+          <div className="mt-5 destaq__gray__text mx-auto">Carência 60 dias a partir da contratação </div>
         </div>
       </section>
       {/* pricing area end */}

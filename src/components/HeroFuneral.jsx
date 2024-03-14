@@ -21,7 +21,7 @@ const HeroFuneral = () => {
                                             Saudades Sim, <span>Preocupações Não</span></h2>
                                         <p className="hero__dis-5 cxufadeUp2 my-4" style={{fontSize: 20}}>Sabemos que lidar com a perda é um dos desafios mais difíceis da vida. Por isso, nosso foco é cuidar de todos os detalhes necessários, para que você possa se concentrar no que realmente importa: recordar e homenagear a vida daqueles que partem.</p>
                                         <div className="hero__btn-wrapper-5">
-                                            <Link className="db-btn-arrow" to="/funeral">
+                                            <Link className="db-btn-arrow" to="#funeral_plans">
                                                 Conheça nossos planos <i className="fa-solid fa-arrow-right" />
                                             </Link>
                                         </div>

@@ -1,54 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-const questions = [
-  {
-    id: 1,
-    question: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit?',
-    answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptate dolores error esse aliquid, explicabo harum temporibus dicta, rem magnam iste itaque quidem sint placeat maxime dolore a exercitationem facere.'
-  },
-  {
-    id: 2,
-    question: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit?',
-    answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptate dolores error esse aliquid, explicabo harum temporibus dicta, rem magnam iste itaque quidem sint placeat maxime dolore a exercitationem facere.'
-  },
-  {
-    id: 3,
-    question: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit?',
-    answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptate dolores error esse aliquid, explicabo harum temporibus dicta, rem magnam iste itaque quidem sint placeat maxime dolore a exercitationem facere.'
-  }
-]
-
-const FaqOne = () => {
+const FaqOne = ({questions}) => {
   return (
     <>
       {/* FAQs area start */}
       <section className="faq__area pt-170 pb-150">
         <div className="container pt-150">
           <div className="row">
-            <div className="col-xxl-6 col-xl-6 col-xl-6 col-md-6">
+            <div className="col-12">
               <div className="faq__content" data-aos="fade-up">
                 <h3 className="sec-title text-white">
                   Aqui algumas dúvidas<br />que você pode ter
                 </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptate dolores error esse aliquid, explicabo harum temporibus dicta, rem magnam iste itaque quidem sint placeat maxime dolore a exercitationem facere.</p>
-                <div className="db-arrow-up">
-                  <Link to="/about">
-                    <img
-                      className="img"
-                      src="assets/imgs/icon/arrow-xxl-2.png"
-                      alt="Arrow Icon"
-                    />
-                    <img
-                      className="img-2"
-                      src="assets/imgs/icon/arrow-xxl-2.png"
-                      alt="Arrow Icon"
-                    />
-                  </Link>
-                </div>
               </div>
             </div>
-            <div className="col-xxl-6 col-xl-6 col-xl-6 col-md-6">
+            <div className="col-12">
               <div className="faq__list">
                 <div className="accordion" id="accordionExample">
                   {questions.map(question => {

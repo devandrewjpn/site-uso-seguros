@@ -4,11 +4,12 @@ import { useModal } from './FuneralModalContext';
 import { useRef, useState } from 'react';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import InputMask from 'react-input-mask';
 
 function FuneralModal() {
 
-    const { isModalOpen, closeModal } = useModal();
-    const [loading,setLoading] = useState(false)
+    const { isModalOpen, closeModal, plan } = useModal();
+    const [loading, setLoading] = useState(false)
     const form = useRef()
 
     function handleSubmit(e) {
@@ -16,28 +17,28 @@ function FuneralModal() {
         setLoading(true)
         const formData = new FormData(e.target)
 
-        fetch('https://script.google.com/macros/s/AKfycbxnnUAzOx8_WnEvg1pgs1lK40C3wfJEhjIrh933qGf3Plq5PZYWn0-BdXBXd3Wu1JMK8Q/exec', {
+        fetch('https://script.google.com/macros/s/AKfycbyid8Sf4SsQOeXD2-IzmE1hqTI0TdNVuUzQZcD4_jPUiAD6CozWDdwAm_wnWzJCDgDAzA/exec', {
             method: 'POST',
             body: formData
         })
-        .then((res) => res.text())
-        .then((data) => {
-            toast.success("Formulário enviado com sucesso, em breve um de nossos consultores entrará em contato.", {
-                position: "top-right",
-                autoClose: 3000,
-            });
-            setLoading(false)
-        })
-        .catch((error) => {
-            toast.error("Algo deu errado, tenta novamente mais tarde.", {
-                position: "top-right",
-                autoClose: 3000,
-            });
-            setLoading(false)
-        })
-        .finally(() => {
-            console.log('deu bom acho');
-        })
+            .then((res) => res.text())
+            .then((data) => {
+                toast.success("Formulário enviado com sucesso, em breve um de nossos consultores entrará em contato.", {
+                    position: "top-right",
+                    autoClose: 3000,
+                });
+                setLoading(false)
+            })
+            .catch((error) => {
+                toast.error("Algo deu errado, tenta novamente mais tarde.", {
+                    position: "top-right",
+                    autoClose: 3000,
+                });
+                setLoading(false)
+            })
+            .finally(() => {
+                console.log('deu bom acho');
+            })
     }
 
     return (
@@ -48,7 +49,8 @@ function FuneralModal() {
                         <Modal.Title>Contratar plano</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-
+                        <input type='hidden' name='Plano_PAX_1' value={plan === 1 ? 'Selecionado' : 'Não Selecionado'} />
+                        <input type='hidden' name='Plano_PAX_2' value={plan === 2 ? 'Selecionado' : 'Não Selecionado'} />
                         <input
                             type="number"
                             name="Vidas"
@@ -58,18 +60,19 @@ function FuneralModal() {
                         />
                         <input
                             type="text"
-                            name="Name"
+                            name="Nome"
                             id="Name"
                             required
                             placeholder="Nome:"
                         />
-                        <input
-                            type="number"
-                            name="Telefone"
-                            id="Name"
-                            required
-                            placeholder="Telefone:"
-                        />
+                        <InputMask
+                            mask="(99) 99999-9999"
+                            maskChar="_"
+                            alwaysShowMask
+                            placeholder="Digite seu telefone"
+                        >
+                            {(inputProps) => <input {...inputProps} type="tel" name="Telefone" id="Name" required />}
+                        </InputMask>
                         <input
                             type="email"
                             name="Email"

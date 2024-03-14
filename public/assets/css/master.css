@@ -1,49 +1,5 @@
 @charset "UTF-8";
-/*-----------------------------------------------------------------------------------
 
-  Theme Name: Digibold - Digital Agency HTML5 Template
-  Author: s7template
-  Support: 
-  Description: Digibold – is a Digital Agency HTML5 Template that comes with high-quality 3 Pre build Home Pages and many built-in awesome inner pages  which are perfect for any creative agencies, designers, digital agencies, freelancers, developers, designers, marketing, startup, blog and portfolio.
-  Version: 1.0
-
------------------------------------------------------------------------------------
-
-/************ TABLE OF CONTENTS ***************
-
-  01. VARIBALES DECLARARION
-  02. MIXIN DECLARATION
-  03. TYPOGRAPHY CSS START
-  04. THEME CSS START
-  05. BUTTON CSS START
-  06. TITLE CSS START
-  07. WIDGET CSS START
-  08. ANIMATION CSS START
-  09. LOADING CSS START
-  10. MENU CSS START
-  11. MODAL CSS START
-  12. HEADER CSS START
-  13. OFFCANVAS CSS START
-  14. HERO CSS START
-  15. FEATURE CSS START
-  16. ABOUT CSS START
-  17. SERVICE CSS START
-  18. COUNTER CSS START
-  19. TESTIMONIAL CSS START
-  20. PROCESS CSS START
-  21. TEAM CSS START
-  22. PORTFOLIO CSS START
-  23. HIRE CSS START
-  24. PRICE CSS START
-  25. BRAND CSS START
-  26. BLOG CSS START
-  27. CONTACT CSS START
-  28. FOOTER CSS START
-
-**********************************************/
-/*----------------------------------------*/
-/*  01. VARIBALES DECLARARION
-/*----------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
   --primary: #22F55D;

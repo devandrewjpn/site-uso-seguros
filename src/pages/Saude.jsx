@@ -18,7 +18,7 @@ const Saude = () => {
           <SaudePricing />
           <SaudePromoOne />
           <SaudePromoTwo />
-          <TestimonialTwo />
+          {/* <TestimonialTwo /> */}
         </main>
         <FooterThree />
       </Suspense>
