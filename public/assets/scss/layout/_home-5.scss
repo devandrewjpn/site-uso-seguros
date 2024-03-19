@@ -764,7 +764,9 @@ HOME FIVE PRICING
       padding-bottom: 150px;
       @media #{$md} {
         padding-bottom: 60px;
-        display: none;
+        .grid_3 {
+          grid-template-columns: 1fr!important;
+        }
       }
     }
   }
@@ -1015,9 +1017,6 @@ HOME FIVE TESTIMONIAL
 .testimonial-five-next {
   @extend .testimonial-five-prev;
   right: 0;
-  @media #{$sm} {
-    font-size: 30px;
-  }
 }
 .testimonial {
   &__area {

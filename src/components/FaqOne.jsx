@@ -10,9 +10,9 @@ const FaqOne = ({questions}) => {
             <div className="col-12">
               <div className="faq__content" data-aos="fade-up">
                 <h3 className="sec-title text-white">
-                  Aqui algumas dúvidas<br />que você pode ter
+                  CONFIRA AQUI RESPOSTAS PARA ALGUMAS DAS SUAS PRINCIPAIS DÚVIDAS
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptate dolores error esse aliquid, explicabo harum temporibus dicta, rem magnam iste itaque quidem sint placeat maxime dolore a exercitationem facere.</p>
+                <p>Não encontrou o que procurava? Nossos especialistas estão prontos para ajudar! Fale conosco e esclareça suas dúvidas através de nossos canais de atendimento.</p>
               </div>
             </div>
             <div className="col-12">

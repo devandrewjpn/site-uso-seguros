@@ -142,9 +142,15 @@ const HeaderThree = () => {
                 <li>
                   <Link to="/saude">USO Saúde</Link>{" "}
                 </li>
-                {/* <li>
-                  <Link to="/ajuda">Ajuda</Link>{" "}
-                </li> */}
+                <li>
+                  <Link to="/ajuda-viagem">F.A.Q USO Viagem</Link>{" "}
+                </li>
+                <li>
+                  <Link to="/ajuda-funeral">F.A.Q USO Funeral</Link>{" "}
+                </li>
+                <li>
+                  <Link to="/ajuda-saude">F.A.Q USO Saúde</Link>{" "}
+                </li>
               </ul>
             </nav>
           </div>
