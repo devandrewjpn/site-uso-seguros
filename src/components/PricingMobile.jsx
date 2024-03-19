@@ -9,17 +9,17 @@ const items = [
     redirect: '/viagens',
     description: "Conheça todas as opções"
   },
-  {
-    id: 2,
-    title: 'USO PET',
-    value: 10,
-    redirect: '/pet',
-    description: "Conheça todas as opções"
-  },
+  // {
+  //   id: 2,
+  //   title: 'USO PET',
+  //   value: 10,
+  //   redirect: '/pet',
+  //   description: "Conheça todas as opções"
+  // },
   {
     id: 3,
     title: 'USO Funeral',
-    value: 13,
+    value: 19.9,
     redirect: '/funeral',
     description: "Conheça todas as opções"
   },

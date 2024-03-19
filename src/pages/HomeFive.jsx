@@ -18,7 +18,7 @@ const HomeFive = () => {
             <HeroFive />
             <PricingOne />
             <PricingMobile />
-            <HistoryOne />
+            {/* <HistoryOne /> */}
             <ServiceThree />
             {/* <TestimonialTwo /> */}
           </main>

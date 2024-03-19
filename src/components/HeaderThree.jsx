@@ -142,9 +142,9 @@ const HeaderThree = () => {
                 <li>
                   <Link to="/saude">USO Saúde</Link>{" "}
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/ajuda">Ajuda</Link>{" "}
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>

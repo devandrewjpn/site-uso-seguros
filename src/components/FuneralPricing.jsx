@@ -9,7 +9,7 @@ const items = [
     value: '19,90',
     plan: 1,
     redirect: '/',
-    description: "Cobertura para morte por acidente de trânsito, Inclui cremação"
+    description: <>Cobertura para morte por acidente de trânsito<br />- Inclui cremação</>
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const items = [
     value: '29,90',
     plan: 2,
     redirect: '/',
-    description: "Cobertura para qualquer causa morte, Inclui cremação"
+    description: <>Cobertura para qualquer causa morte,<br />- Inclui cremação<br />- Amplie para sua família por apenas R$11,50 por vida</>
   }
 ]
 
@@ -32,7 +32,7 @@ const FuneralPricing = () => {
   return (
     <>
       {/* pricing area start */}
-      <section className="pricing__area-5 py-5">
+      <section id="pricing" className="pricing__area-5 py-5">
         <div className="container">
           <div className="d-flex gap-2 justify-content-center pb-5">
             {items.map(item => {

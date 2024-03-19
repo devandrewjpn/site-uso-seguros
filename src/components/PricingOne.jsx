@@ -19,7 +19,7 @@ const items = [
   {
     id: 3,
     title: 'USO Funeral',
-    value: 13,
+    value: 19.90,
     redirect: '/funeral',
     description: "Conheça todas as opções"
   },

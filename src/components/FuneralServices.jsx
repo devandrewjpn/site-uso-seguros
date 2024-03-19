@@ -76,12 +76,12 @@ const services = [
     title: 'Taxas de Cemitério',
     text: 'Inclui custos de sepultamento, velório, jazigo e lápide em cemitérios públicos municipais.',
   },
-  {
-    id: 13,
-    icon: 'assets/imgs/metropax.png',
-    title: 'Clube de Vantagens METROPAX',
-    text: 'Benefícios adicionais exclusivos.Clique e confira!',
-  },
+  // {
+  //   id: 13,
+  //   icon: 'assets/imgs/metropax.png',
+  //   title: 'Clube de Vantagens METROPAX',
+  //   text: 'Benefícios adicionais exclusivos.Clique e confira!',
+  // },
 ]
 
 const FuneralServices = () => {
