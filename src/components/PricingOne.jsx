@@ -36,7 +36,7 @@ const PricingOne = () => {
   return (
     <>
       {/* pricing area start */}
-      <section className="pricing__area-5 pt-5">
+      <section className="home_pricing pricing__area-5 pt-5">
         <div className="container">
           <div className="pricing__items-5">
             {items.map(item => {

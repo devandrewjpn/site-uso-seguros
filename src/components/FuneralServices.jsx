@@ -101,7 +101,7 @@ const FuneralServices = () => {
                 }}
                 slidesPerView={4}
                 breakpoints={{
-                  400: {
+                  200: {
                     slidesPerView: 1,
                     navigation: {
                       enabled: true

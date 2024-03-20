@@ -9,7 +9,7 @@ const items = [
     value: '19,90',
     plan: 1,
     redirect: '/',
-    description: <>Cobertura para morte por acidente de trânsito<br />- Inclui cremação</>
+    description: <>Cobertura para morte por acidente de trânsito<br />- Inclui cremação<br />- Carência: 60 dias a partir da contratação</>
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const items = [
     value: '29,90',
     plan: 2,
     redirect: '/',
-    description: <>Cobertura para qualquer causa morte,<br />- Inclui cremação<br />- Amplie para sua família por apenas R$11,50 por vida</>
+    description: <>Cobertura para qualquer causa morte,<br />- Inclui cremação<br />- Amplie para sua família por apenas R$11,50 por vida<br />- Carência: 60 dias a partir da contratação</>
   }
 ]
 
@@ -32,7 +32,7 @@ const FuneralPricing = () => {
   return (
     <>
       {/* pricing area start */}
-      <section id="pricing" className="pricing__area-5 py-5">
+      <section className="pricing funeral_pricing pricing__area-5 py-5">
         <div className="container">
           <div className="d-flex gap-2 justify-content-center pb-5">
             {items.map(item => {
@@ -44,7 +44,7 @@ const FuneralPricing = () => {
                       <span>R$ {item.value}</span>/ por vida
                     </h3>
                     <p className="">{item.description}</p>
-                    <span className="badge text-dark" style={{backgroundColor: '#d8ff36'}}>SEM CARÊNCIA</span>
+                    {/* <span className="badge text-dark" style={{backgroundColor: '#d8ff36'}}>SEM CARÊNCIA</span> */}
                   </div>
                   <div className="pricing__btn-wrapper">
                     <button className="pricing__btn" type="button" onClick={() => handleButtonClick(item.plan)}>
@@ -58,7 +58,7 @@ const FuneralPricing = () => {
 
           </div>
           {/* <div className="mt-5 destaq__gray__text mx-auto">Adicione Cremação PET por apenas R$14,90 em sua mensalidade, por pet!</div> */}
-          <div className="mt-5 destaq__gray__text mx-auto">Carência 60 dias a partir da contratação </div>
+          {/* <div className="mt-5 destaq__gray__text mx-auto">Carência 60 dias a partir da contratação </div> */}
         </div>
       </section>
       {/* pricing area end */}

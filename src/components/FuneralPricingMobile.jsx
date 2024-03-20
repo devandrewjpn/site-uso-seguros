@@ -9,7 +9,7 @@ const items = [
       value: '19,90',
       plan: 1,
       redirect: '/',
-      description: <>Cobertura para morte por acidente de trânsito<br />- Inclui cremação</>
+      description: <>Cobertura para morte por acidente de trânsito<br />- Inclui cremação<br />- Carência: 60 dias a partir da contratação</>
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ const items = [
       value: '29,90',
       plan: 2,
       redirect: '/',
-      description: <>Cobertura para qualquer causa morte,<br />- Inclui cremação<br />- Amplie para sua família por apenas R$11,50 por vida</>
+      description: <>Cobertura para qualquer causa morte,<br />- Inclui cremação<br />- Amplie para sua família por apenas R$11,50 por vida<br />- Carência: 60 dias a partir da contratação</>
     }
   ]
 
@@ -31,7 +31,7 @@ const FuneralPricingMobile = () => {
 
     return (
         <>
-            <section className="pricing__mobile-5 pt-5">
+            <section className="pricingmb pricing__mobile-5 pt-5">
                 <div className="container">
                     <div className="pricing__mobile-items-5">
                         {items.map(item => {
@@ -45,7 +45,7 @@ const FuneralPricingMobile = () => {
                                                 <span>R$ {item.value}</span>/ por vida
                                             </h3>
                                             <p className="">{item.description}</p>
-                                            <span className="badge text-dark" style={{ backgroundColor: '#d8ff36' }}>SEM CARÊNCIA</span>
+                                            {/* <span className="badge text-dark" style={{ backgroundColor: '#d8ff36' }}>SEM CARÊNCIA</span> */}
                                         </div>
                                         <div className="pricing__mobile-btn-wrapper">
                                             <button className="pricing__mobile-btn" type="button" onClick={() => handleButtonClick(item.plan)}>

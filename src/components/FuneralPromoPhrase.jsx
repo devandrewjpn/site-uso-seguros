@@ -1,9 +1,10 @@
 const FuneralPromoPhrase = () => {
 
     const scrollToSection = () => {
-        const pricingSection = document.getElementById('pricing');
-        if (pricingSection) {
-          pricingSection.scrollIntoView({ behavior: 'smooth' });
+        if(window.innerWidth > 600) {
+            document.querySelector('.pricing').scrollIntoView(true)
+        } else {
+            document.querySelector('.pricingmb').scrollIntoView(true)
         }
       };
 

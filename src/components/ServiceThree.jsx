@@ -72,7 +72,7 @@ const ServiceThree = () => {
                   return (
                     <SwiperSlide
                       key={service.id}
-                      className="service__item-3"
+                      className="d-flex flex-column justify-content-center align-items-center text-center service__item-3"
                     >
                       <div className="icon">
                         <img width={150} src={service.icon} alt="Service Icon" />
@@ -81,7 +81,7 @@ const ServiceThree = () => {
                         <Link to={service.href}>
                           <div className="service__title-3">{service.title}</div>
                         </Link>
-                        <p className="">{service.text}</p>
+                        <p className="text-center">{service.text}</p>
                         <Link
                           className="db-btn-border btn-rollover color-1"
                           to={service.href}

@@ -109,9 +109,9 @@ const TeamFour = () => {
                             <div className="team__image">
                               <img src={place.image} alt="digibold" />
                               <div className="share__wrap">
-                                <button className="share-btn">
+                                <a href="https://usoseguros.primesecure.com.br/" target="_blank" className="share-btn">
                                   <i className="fa-solid fa-plane" />
-                                </button>
+                                </a>
                               </div>
                             </div>
                             <div className="team__content" style={{background:'#fff!important',color:"#000!important"}}>

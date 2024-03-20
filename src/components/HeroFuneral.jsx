@@ -4,6 +4,14 @@ import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 const HeroFuneral = () => {
 
+    const scrollToSection = () => {
+        if(window.innerWidth > 600) {
+            document.querySelector('.pricing').scrollIntoView(true)
+        } else {
+            document.querySelector('.pricingmb').scrollIntoView(true)
+        }
+      };
+
     return (
         <>
             {/* hero area start */}
@@ -20,11 +28,11 @@ const HeroFuneral = () => {
                                         <h2 className="mobile__text hero__title-5 cxufadeUp2">
                                             Saudades Sim, <span>Preocupações Não</span></h2>
                                         <p className="hero__dis-5 cxufadeUp2 my-4" style={{fontSize: 20}}>Sabemos que lidar com a perda é um dos desafios mais difíceis da vida. Por isso, nosso foco é cuidar de todos os detalhes necessários, para que você possa se concentrar no que realmente importa: recordar e homenagear a vida daqueles que partem.</p>
-                                        {/* <div className="hero__btn-wrapper-5">
-                                            <Link className="db-btn-arrow" to="#funeral_plans">
+                                        <div className="hero__btn-wrapper-5">
+                                            <Link className="db-btn-arrow" onClick={scrollToSection}>
                                                 Conheça nossos planos <i className="fa-solid fa-arrow-right" />
                                             </Link>
-                                        </div> */}
+                                        </div>
                                     </div>
                                 </div>
                             </div>

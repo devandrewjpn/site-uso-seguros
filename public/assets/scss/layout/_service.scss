@@ -144,6 +144,9 @@
     }
 
     &-3 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       p {
         max-width: 330px;
         color: var(--white);
@@ -293,7 +296,7 @@
       // }
 
       .icon {
-        margin-bottom: 50px;
+        margin: 0 auto 50px auto;
 
         @media #{$md} {
           max-width: 100px;

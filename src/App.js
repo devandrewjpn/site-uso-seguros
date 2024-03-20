@@ -14,6 +14,7 @@ import { ToastContainer } from 'react-toastify';
 import HelpViagem from "./pages/Help_Viagem";
 import HelpFuneral from "./pages/Help_Funeral";
 import HelpSaude from "./pages/Help_Saude";
+import { WhatsApp } from "./components/Whatsapp";
 
 function App() {
   useEffect(() => {
@@ -26,10 +27,11 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter basename={'/novo/'}>
+    <BrowserRouter basename={'/'}>
       <ToastContainer />
       <RouteScrollToTop />
       <LateralSocials />
+      <WhatsApp />
       <Routes>
         <Route exact path="/" element={<HomeFive />} />
         <Route exact path="/viagens" element={<Viagens />} />

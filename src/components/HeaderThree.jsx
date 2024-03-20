@@ -106,7 +106,7 @@ const HeaderThree = () => {
 
             <div className="header__offcanvas-3">
               <button className="menu_icon" onClick={offCanvasControl}>
-                <img src="assets/imgs/icon/menu.png" alt="Menu Icon" />
+                <img src="/assets/imgs/icon/menu.png" alt="Menu Icon" />
               </button>
             </div>
           </div>
