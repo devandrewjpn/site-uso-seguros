@@ -14,7 +14,7 @@ const HomeFive = () => {
     <>
       <Suspense fallback={<Preloader />}>
         <HeaderThree />
-          <main className="digibold-five">
+          <main className="astaton-five">
             <HeroFive />
             <PricingOne />
             <PricingMobile />

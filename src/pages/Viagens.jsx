@@ -15,7 +15,7 @@ const Viagens = () => {
     <>
       <Suspense fallback={<Preloader />}>
         <HeaderThree />
-        <main className="digibold-five">
+        <main className="astaton-five">
           <HeroViagens />
           <TeamFour />
           <AboutTwo />

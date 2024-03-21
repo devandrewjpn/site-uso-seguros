@@ -5,10 +5,8 @@ import ScrollToTop from "react-scroll-to-top";
 import RouteScrollToTop from "./elements/RouteScrollToTop";
 import HomeFive from "./pages/HomeFive";
 import Viagens from "./pages/Viagens";
-import Pet from "./pages/Pet";
 import Funeral from "./pages/Funeral";
 import Saude from "./pages/Saude";
-import Help from "./pages/Help";
 import LateralSocials from "./components/LateralSocials";
 import { ToastContainer } from 'react-toastify';
 import HelpViagem from "./pages/Help_Viagem";
@@ -27,7 +25,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter basename={'/'}>
+    <BrowserRouter>
       <ToastContainer />
       <RouteScrollToTop />
       <LateralSocials />

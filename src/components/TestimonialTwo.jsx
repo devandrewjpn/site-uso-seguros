@@ -33,7 +33,7 @@ const TestimonialTwo = () => {
       {/* testimonial area start */}
       <section className="testimonial__area-5 mt-5 py-5">
         <div className="container">
-          <div className="digibold-section-wrapper-5">
+          <div className="astaton-section-wrapper-5">
             <h3 className="section-title-5 heading-animation">
               Quem faz USO
             </h3>

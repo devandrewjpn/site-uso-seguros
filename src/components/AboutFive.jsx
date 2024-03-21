@@ -16,7 +16,7 @@ const AboutFive = () => {
                 <img
                   className="img-2"
                   src="assets/imgs/about__bg_circle.png"
-                  alt="digibold"
+                  alt="astaton"
                 />
               </div>
             </div>

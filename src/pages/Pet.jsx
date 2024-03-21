@@ -15,7 +15,7 @@ const Pet = () => {
     <>
       <Suspense fallback={<Preloader />}>
         <HeaderThree />
-        <main className="digibold-five">
+        <main className="astaton-five">
           <HeroPet />
           <PetTable />
           <AppSection />

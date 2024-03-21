@@ -19,7 +19,7 @@ const Funeral = () => {
       <Suspense fallback={<Preloader />}>
         <HeaderThree />
         <ModalProvider>
-          <main className="digibold-five">
+          <main className="astaton-five">
             <HeroFuneral />
             <FuneralPricing />
             <FuneralPricingMobile />

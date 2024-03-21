@@ -107,7 +107,7 @@ const TeamFour = () => {
                             data-aos="fade-up"
                           >
                             <div className="team__image">
-                              <img src={place.image} alt="digibold" />
+                              <img src={place.image} alt="astaton" />
                               <div className="share__wrap">
                                 <a href="https://usoseguros.primesecure.com.br/" target="_blank" className="share-btn">
                                   <i className="fa-solid fa-plane" />

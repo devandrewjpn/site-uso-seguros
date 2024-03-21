@@ -97,7 +97,7 @@ const HelpFuneral = () => {
     <>
       <Suspense fallback={<Preloader />}>
         <HeaderThree />
-        <main className="digibold-five">
+        <main className="astaton-five">
           <FaqOne questions={questions} />
         </main>
         <FooterThree />

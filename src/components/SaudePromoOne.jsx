@@ -43,7 +43,7 @@ const SaudePromoOne = () => {
                         <div className="col-xxl-6 col-xl-6 col-xl-6 col-md-6">
                             <div className="about__imgs-6">
                                 <div className="image-1">
-                                    <img className="rounded" src="assets/imgs/saude_hero_about_one.jpg" alt="digibold" />
+                                    <img className="rounded" src="assets/imgs/saude_hero_about_one.jpg" alt="astaton" />
                                 </div>
                             </div>
                         </div>

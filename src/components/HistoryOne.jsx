@@ -9,7 +9,7 @@ const HistoryOne = () => {
           <div className="row">
             <div className="col-lg-7">
               <div
-                className="digibold-section-wrapper-5"
+                className="astaton-section-wrapper-5"
                 data-aos="fade-up"
                 data-aos-delay={300}
               >

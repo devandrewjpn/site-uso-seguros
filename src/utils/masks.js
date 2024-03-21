@@ -1,4 +1,4 @@
-// phoneFormat.js
+
 function formatPhoneNumber(input) {
     const cleaned = ('' + input).replace(/\D/g, '');
     const match = cleaned.match(/^(\d{2})(\d{4,5})(\d{4})$/);

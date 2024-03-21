@@ -13,7 +13,7 @@ const Saude = () => {
     <>
       <Suspense fallback={<Preloader />}>
         <HeaderThree />
-        <main className="digibold-five">
+        <main className="astaton-five">
           <HeroSaude />
           <SaudePricing />
           <SaudePromoOne />

@@ -70,7 +70,7 @@ const FooterThree = () => {
                         <i className="fa-solid fa-phone" />
                       </span>
                       <div>
-                        <Link to="tel:+88014420420"> (31) 2118-0092</Link>
+                        <Link to="tel:+553121180092"> (31) 2118-0092</Link>
                       </div>
                     </li>
                     <li>
@@ -96,7 +96,7 @@ const FooterThree = () => {
                 <div className="footer__btm-3">
                   <div className="footer__copyright-3">
                     <p>
-                      Copyright @2023 USO Seguros. Todos os direitos reservados.
+                      Copyright @2024 USO Seguros. Todos os direitos reservados.
                     </p>
                   </div>
                   <div className="footer__menu-3">

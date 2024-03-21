@@ -11,10 +11,10 @@ const AboutTwo = () => {
             <div className="col-xxl-6 col-xl-6 col-xl-6 col-md-6">
               <div className="about__imgs-6">
                 <div className="image-1">
-                  <img className="rounded" src="assets/imgs/telemedicina1.png" alt="digibold" />
+                  <img className="rounded" src="assets/imgs/telemedicina1.png" alt="astaton" />
                 </div>
                 <div className="image-2">
-                  <img className="rounded" width={400} src="assets/imgs/telemedicina2.png" alt="digibold" />
+                  <img className="rounded" width={400} src="assets/imgs/telemedicina2.png" alt="astaton" />
                 </div>
               </div>
             </div>

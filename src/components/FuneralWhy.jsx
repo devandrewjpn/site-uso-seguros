@@ -31,7 +31,7 @@ const FuneralWhy = () => {
                         <div className="col-xxl-6 col-xl-6 col-xl-6 col-md-6">
                             <div className="about__imgs-6">
                                 <div className="image-1">
-                                    <img className="rounded" src="assets/imgs/funeral__benefits_hero.jpg" alt="digibold" />
+                                    <img className="rounded" src="assets/imgs/funeral__benefits_hero.jpg" alt="astaton" />
                                 </div>
                             </div>
                         </div>
@@ -48,7 +48,7 @@ const FuneralWhy = () => {
                                                     <img width={60} src={item.img} alt="service-icon" />
                                                 </div>
                                                 <div class="service__content-5 text-start">
-                                                    <a href="/viagens">
+                                                    <a href="/">
                                                         <h3 class="service__item-title">{item.title}</h3>
                                                     </a>
                                                     <p className="text-start">{item.text}</p>
