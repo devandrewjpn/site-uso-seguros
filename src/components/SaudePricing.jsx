@@ -32,6 +32,12 @@ const items = [
                 id: 3,
                 text: 'Assistência Pessoal'
             },
+        ],
+        alert: [
+            {
+                id: 1,
+                text: '*Consulte valores de adesão'
+            }
         ]
     },
     {
@@ -64,6 +70,12 @@ const items = [
                 id: 3,
                 text: 'Assistência Pessoal'
             },
+        ],
+        alert: [
+            {
+                id: 1,
+                text: '*Consulte valores de adesão'
+            }
         ]
     },
     {
@@ -110,6 +122,12 @@ const items = [
                 id: 1,
                 text: 'Sorteiro Mensal R$200.000 (Isento de Impostos)'
             }
+        ],
+        alert: [
+            {
+                id: 1,
+                text: '*Consulte valores de adesão'
+            }
         ]
     },
 ]
@@ -152,6 +170,15 @@ const SaudePricing = () => {
                                             <div className="mb-4">
                                                 <strong>Sorteio:</strong>
                                                 <ul>{item.sort.map(s => {
+                                                    return (
+                                                        <li key={s.id}>{s.text}</li>
+                                                    )
+                                                })}</ul>
+                                            </div>
+                                        )}
+                                        {item.alert && (
+                                            <div className="mb-4">
+                                                <ul>{item.alert.map(s => {
                                                     return (
                                                         <li key={s.id}>{s.text}</li>
                                                     )

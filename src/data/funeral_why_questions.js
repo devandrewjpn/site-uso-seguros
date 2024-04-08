@@ -9,7 +9,7 @@ export const FuneralWhyQuestions = [
         id: 2,
         image: 'assets/imgs/question__baloon.svg',
         myth: "É muito caro e não vale a pena.",
-        true: "O custo médio de um funeral pode variar significativamente, chegando a custos elevados dependendo dos serviços escolhidos. Com planos da USO a partir de R$XX,XX, você recebe uma cobertura completa por uma fração do custo."
+        true: "O custo médio de um funeral pode variar significativamente, chegando a custos elevados dependendo dos serviços escolhidos. Com planos da USO a partir de R$19,90  , você recebe uma cobertura completa por uma fração do custo."
       },
       {
         id: 3,
