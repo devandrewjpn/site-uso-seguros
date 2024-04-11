@@ -9,7 +9,7 @@ const items = [
     value: '19,90',
     plan: 1,
     redirect: '/',
-    description: <>Cobertura para morte por acidente de trânsito<br />- Inclui cremação<br />- Carência: 60 dias a partir da contratação<br />- *Consulte valores de adesão</>
+    description: <>Cobertura para morte por acidente de trânsito<br />- Inclui cremação<br />- Carência: 60 dias a partir da contratação<br /><br />- *Consulte valores de adesão</>
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const items = [
     value: '29,90',
     plan: 2,
     redirect: '/',
-    description: <>Cobertura para qualquer causa morte,<br />- Inclui cremação<br />- Amplie para sua família por apenas R$11,50 por vida<br />- Carência: 60 dias a partir da contratação<br />- *Consulte valores de adesão</>
+    description: <>Cobertura para qualquer causa morte,<br />- Inclui cremação<br />- Amplie para sua família por apenas R$11,50 por vida<br />- Carência: 60 dias a partir da contratação<br /><br />- *Consulte valores de adesão</>
   }
 ]
 
