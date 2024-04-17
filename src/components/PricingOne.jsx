@@ -26,7 +26,7 @@ const items = [
   {
     id: 4,
     title: 'USO Saúde',
-    value: 33,
+    value: "39,97",
     redirect: '/saude',
     description: "Conheça todas as opções"
   },
