@@ -5,7 +5,7 @@ const items = [
     {
         id: 1,
         title: 'USO SAÚDE I - Proteção Essencial',
-        value: "33,97",
+        value: "39,97",
         redirect: 'https://usoseguros.plataformadeseguros.com.br/',
         description: "O básico não precisa ser básico",
         label: "Médico na Tela para até 4 membros da família",
